@@ -12,6 +12,7 @@ import os
 import json
 
 data = []
+data.append(['RESPONSE ID', 'INTENT NAME', 'MESSAGE_ID', 'QUESTION', 'MESSAGE'])
 for fname in os.listdir('TeleCovid/intents'):
     if '_usersays_pt-br' not in fname:
         try:
@@ -22,15 +23,18 @@ for fname in os.listdir('TeleCovid/intents'):
             for row in questions[0]['data']:
                 question.append(row['text'].strip())
             question = ' '.join(question)
-            
-            for response in intent['responses']:
+
+            for i, response in enumerate(intent['responses']):
                 for message in response['messages']:
-                    speech = message['speech']
-                    data.append([intent_name, question, speech])
+                    if 'speech' in message:
+                        for z, speech in enumerate(message['speech']):
+                            data.append([i, intent_name, z, question, speech])
+                    else:
+                        data.append([i, intent_name, 0, question, 'NOT TEXT'])
         except:
             print(fname)
 
 with open('qa.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=';', quotechar='\"', quoting=csv.QUOTE_MINIMAL)
-    for row in sorted(data, key=lambda x: x[0]):
+    for row in data:
         writer.writerow(row) 
