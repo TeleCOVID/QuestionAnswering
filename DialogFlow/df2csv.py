@@ -12,7 +12,7 @@ import os
 import json
 
 data = []
-data.append(['RESPONSE ID', 'INTENT NAME', 'MESSAGE_ID', 'QUESTION', 'MESSAGE'])
+data.append(['RESPONSE ID', 'INTENT NAME', 'QUESTION', 'ORDER', 'MESSAGE_ID', 'MESSAGE'])
 for fname in os.listdir('TeleCovid/intents'):
     if '_usersays_pt-br' not in fname:
         try:
@@ -25,12 +25,12 @@ for fname in os.listdir('TeleCovid/intents'):
             question = ' '.join(question)
 
             for i, response in enumerate(intent['responses']):
-                for message in response['messages']:
+                for j, message in enumerate(response['messages']):
                     if 'speech' in message:
                         for z, speech in enumerate(message['speech']):
-                            data.append([i, intent_name, z, question, speech])
+                            data.append([i, intent_name, question, j, z, speech])
                     else:
-                        data.append([i, intent_name, 0, question, 'NOT TEXT'])
+                        data.append([i, intent_name, question, j, 0, 'NOT TEXT'])
         except:
             print(fname)
 
