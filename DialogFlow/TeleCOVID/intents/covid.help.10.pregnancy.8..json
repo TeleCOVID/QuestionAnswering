@@ -1,0 +1,39 @@
+{
+  "id": "93ea68c8-2bf6-4c58-9c24-4f2816d07a7c",
+  "parentId": "4c02b4cb-c446-4b7e-9576-94919034d7b2",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.10.pregnancy.8.",
+  "auto": true,
+  "contexts": [
+    "covidhelp10pregnancy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp10pregnancy-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se alguém em sua casa estiver em isolamento domiciliar, entre em contato com a unidade básica de saúde para reagendarem a sua consulta, se possível para após o período de isolamento (14 dias após início dos sintomas ou contato com quem está com sintomas)."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

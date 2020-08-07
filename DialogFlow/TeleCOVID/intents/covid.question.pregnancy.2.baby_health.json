@@ -1,0 +1,35 @@
+{
+  "id": "39d8ee82-5a52-4532-9525-6576060d35ba",
+  "name": "covid.question.pregnancy.2.baby_health",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Em relação à transmissão do vírus ao bebê, parece ser possível de acontecer, mas ainda não se sabe com qual frequência e como isso afeta o bebê."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

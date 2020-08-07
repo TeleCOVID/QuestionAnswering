@@ -1,0 +1,39 @@
+{
+  "id": "495bcf92-0864-42d0-a90e-6c89dfb1e7ff",
+  "parentId": "4c02b4cb-c446-4b7e-9576-94919034d7b2",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.10.pregnancy.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp10pregnancy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp10pregnancy-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "As gestantes com COVID-19 podem ter quadros graves da doença na mesma proporção da população jovem.  Aquelas que já tinham alguma doença como diabetes, problema no coração ou pulmão, pressão alta, têm mais risco e precisam de mais cuidados."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

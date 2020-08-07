@@ -1,0 +1,39 @@
+{
+  "id": "a6170f30-93b1-4de2-8aff-d2555112b2ef",
+  "parentId": "95a7a39a-0927-4be8-9a8d-edfe45056893",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.8.behavior.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp8behavior-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp8behavior-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não. Enquanto durar esta situação de emergência, todas as pessoas, incluindo aquelas que estejam saudáveis, devem permanecer em suas casas e sair apenas em situações inevitáveis, como comprar alimentos ou medicamentos. Não visitar os parentes neste momento é uma medida importante de proteção para eles e para você."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "data": [
+      {
+        "text": "o que é ",
+        "userDefined": false
+      },
+      {
+        "text": "uma",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pandemia?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "me explique o que é pandemia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "O que é pandemia?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

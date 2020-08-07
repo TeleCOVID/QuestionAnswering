@@ -1,0 +1,46 @@
+{
+  "id": "a991b4ef-9c22-4a53-a46e-936ff0c72dcb",
+  "parentId": "18ab6323-068f-4666-8b9a-5ece060f180d",
+  "rootParentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "name": "covid.multiple_groups2 - no",
+  "auto": true,
+  "contexts": [
+    "covidmultiple_groups-yes-followup",
+    "personal_info_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidsymptoms.covidsymptoms-yes.coviduseterms-yes-no.covidbreath-no-no.covidfaint-no-no.covidfever-no-yes.covidmultiple_groups-yes-no",
+      "affectedContexts": [
+        {
+          "name": "personal_info_context",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Certo #personal_info_context.name. Você não tem sintomas de gripe e não está em nenhum grupo de risco."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

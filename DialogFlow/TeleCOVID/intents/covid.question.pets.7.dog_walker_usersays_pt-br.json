@@ -1,0 +1,49 @@
+[
+  {
+    "data": [
+      {
+        "text": "que cuidados devo tomar ao passear com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cães e animais de estimação em geral?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Sou ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "(a) passeador(a) e/ou cuidador(a) de animais. Devo abandonar ",
+        "userDefined": false
+      },
+      {
+        "text": "meu emprego",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

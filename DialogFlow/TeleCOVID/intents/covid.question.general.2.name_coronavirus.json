@@ -1,0 +1,35 @@
+{
+  "id": "c9fa7368-ae1a-42db-ab88-d8a11fe05db4",
+  "name": "covid.question.general.2.name_coronavirus",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "O nome “coronavírus” se deve ao fato da forma do vírus se assemelhar a uma coroa que, em latim, chama-se corona."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

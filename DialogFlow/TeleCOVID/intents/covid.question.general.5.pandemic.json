@@ -1,0 +1,35 @@
+{
+  "id": "3d4d8b79-59b9-432c-a027-8f4ebbc635ab",
+  "name": "covid.question.general.5.pandemic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Pandemia é o termo usado para descrever uma situação em que uma doença infecciosa ameaça muitas pessoas ao redor do mundo simultaneamente. Declarar uma pandemia significa dizer que os esforços para conter a expansão mundial do vírus falharam e que a disseminação está fora de controle. Novos vírus são mais prováveis de causarem pandemias porque não temos defesas naturais, medicamentos ou vacinas para nos proteger."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

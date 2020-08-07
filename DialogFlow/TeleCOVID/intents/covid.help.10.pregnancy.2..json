@@ -1,0 +1,39 @@
+{
+  "id": "142b4a8b-e17c-4934-8860-43a73b967438",
+  "parentId": "4c02b4cb-c446-4b7e-9576-94919034d7b2",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.10.pregnancy.2.",
+  "auto": true,
+  "contexts": [
+    "covidhelp10pregnancy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp10pregnancy-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Em relação à transmissão do vírus ao bebê, parece ser possível de acontecer, mas ainda não se sabe com qual frequência e como isso afeta o bebê."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

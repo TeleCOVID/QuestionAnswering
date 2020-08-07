@@ -1,0 +1,35 @@
+[
+  {
+    "data": [
+      {
+        "text": "Posso beijar e abraçar ",
+        "userDefined": false
+      },
+      {
+        "text": "meu pet",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Posso beijar e abraçar meu cachorro?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

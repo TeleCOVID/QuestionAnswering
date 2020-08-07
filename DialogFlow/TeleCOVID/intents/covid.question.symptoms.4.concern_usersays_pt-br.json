@@ -1,0 +1,35 @@
+[
+  {
+    "data": [
+      {
+        "text": "precisa de toda essa preocupação",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Qual o motivo da enorme preocupação e mobilização mundial ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " conter a disseminação do vírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "id": "46e47c1f-4874-4007-83b1-fde3d580d1c2",
+  "parentId": "18ab6323-068f-4666-8b9a-5ece060f180d",
+  "rootParentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "name": "covid.multiple_groups2 - yes",
+  "auto": true,
+  "contexts": [
+    "covidmultiple_groups-yes-followup",
+    "personal_info_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidsymptoms.covidsymptoms-yes.coviduseterms-yes-no.covidbreath-no-no.covidfaint-no-no.covidfever-no-yes.covidmultiple_groups-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "personal_info_context",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Certo #personal_info_context.name. Você precisa procurar um médico ou ligar 136."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

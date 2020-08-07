@@ -1,0 +1,35 @@
+{
+  "id": "74e43d76-7fac-476f-977a-b5e5eccd9602",
+  "name": "covid.question.mask.3.how_long",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Geralmente a máscara cirúrgica não deve ser utilizada por mais de 2 horas, pois após este período ela fica úmida e perde a sua eficácia. Ao trocar a máscara cirúrgica, o paciente não deve tocar na parte da frente, que cobre o rosto, mas fazer a sua retirada a partir das alças laterais. A máscara deve ser descartada no lixo, não pode ser lavada e reutilizada. Depois de descartá-la no lixo, deve fazer a higienização adequada das mãos com água e sabão ou álcool em gel."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

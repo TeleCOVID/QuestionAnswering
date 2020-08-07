@@ -1,0 +1,35 @@
+{
+  "id": "569b4953-bbb3-4850-88f9-bab99aff9efb",
+  "name": "covid.question.transmission.2.how_long",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "As evidências atuais indicam que ela ocorra principalmente durante o período em que o paciente apresenta sintomas, como febre, tosse, coriza, nariz entupido e dor de garganta, mas podem ser estender até 14 dias do início dos sintomas. Além disso, existem dados científicos que indicam que a transmissão do coronavírus pode ocorrer antes mesmo da pessoa infectada apresentar sintomas, por isso é muito importante manter o distanciamento social!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

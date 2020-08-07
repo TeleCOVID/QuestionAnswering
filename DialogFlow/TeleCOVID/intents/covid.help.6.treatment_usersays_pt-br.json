@@ -1,0 +1,79 @@
+[
+  {
+    "id": "19ab5d6e-851a-4a73-90f8-6b6944a2f856",
+    "data": [
+      {
+        "text": "6",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ". Tratamento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8f50390e-d619-4b69-9223-ed2b18e2eac3",
+    "data": [
+      {
+        "text": "6",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "d6bc14ac-2337-4356-8751-d1964ecb10fb",
+    "data": [
+      {
+        "text": "6",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7f51bfc6-e3bf-4765-b5f6-3b3159966339",
+    "data": [
+      {
+        "text": "seis",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f3dc00ba-5074-4044-bf76-5ce6a1144abe",
+    "data": [
+      {
+        "text": "Tratamento",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

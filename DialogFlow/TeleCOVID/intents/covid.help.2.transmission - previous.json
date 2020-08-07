@@ -1,0 +1,45 @@
+{
+  "id": "663bc904-e57d-45cb-ae04-2a58da855114",
+  "parentId": "0c55dee1-9913-4822-8569-e87091837472",
+  "rootParentId": "a32a3428-3740-4c63-ae35-5129cea845e0",
+  "name": "covid.help.2.transmission - previous",
+  "auto": true,
+  "contexts": [
+    "covidhelp-followup",
+    "covidhelp2transmission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidquestionhelp.covidquestionhelp-custom.covidhelp2transmission-previous",
+      "affectedContexts": [
+        {
+          "name": "covidhelp-followup",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Escolha uma das opções abaixo:\n\n0. Diagnóstico do Coronavírus;\n1. Informações Gerais;\n2. Informações sobre a Transmissão do Vírus;\n3. Sintomas da Doença;\n4. Orientações para Pacientes com Suspeita da Doença;\n5. Tratamento;\n6. Cuidados em Casa;\n7. Higiene das Mãos e Superfícies;\n8. Comportamento e Hábito de Vida;\n9. Uso de Máscara;\n10. Gravidez e Coronavírus;\n11. Animais Domésticos."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

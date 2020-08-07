@@ -1,0 +1,62 @@
+[
+  {
+    "data": [
+      {
+        "text": "como fica a ",
+        "userDefined": false
+      },
+      {
+        "text": "saúde",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " do ",
+        "userDefined": false
+      },
+      {
+        "text": "meu bêbe",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Se a grávida tem COVID-",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ", a doença pode afetar o ",
+        "userDefined": false
+      },
+      {
+        "text": "bebê",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

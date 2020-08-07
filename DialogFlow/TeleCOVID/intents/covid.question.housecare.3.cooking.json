@@ -1,0 +1,35 @@
+{
+  "id": "7ca17722-6ca1-4af4-8db8-2dfa75146382",
+  "name": "covid.question.housecare.3.cooking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sempre que possível, ela não deve fazer isso. Ao preparar alimentos, ela irá encostar e contaminar vários objetos na cozinha, aumentando a chance de transmissão para os outros moradores da casa. A pessoa doente deve se alimentar preferencialmente no quarto em que está isolada, pois vai precisar tirar a máscara para comer, e não deve compartilhar pratos e talheres com os outros moradores da casa."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

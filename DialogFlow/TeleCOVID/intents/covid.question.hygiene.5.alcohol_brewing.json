@@ -1,0 +1,35 @@
+{
+  "id": "a52e9560-4d97-4f89-be2f-375756b4b941",
+  "name": "covid.question.hygiene.5.alcohol_brewing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não. Não se recomenda a confecção caseira de álcool em gel, já que o procedimento envolve riscos de queimaduras graves e porque não se pode garantir que o produto tenha uma concentração de 70%, o que é indispensável para a eliminação do vírus."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

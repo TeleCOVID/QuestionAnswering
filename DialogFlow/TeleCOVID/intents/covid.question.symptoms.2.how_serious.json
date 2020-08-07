@@ -1,0 +1,35 @@
+{
+  "id": "5351f225-45cc-49bf-a6c5-431fa88415f9",
+  "name": "covid.question.symptoms.2.how_serious",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Em estudos com pacientes chineses, a doença foi leve em 81% dos casos, grave em 14% deles e gravíssima em 5%. De maneira geral, cerca de 15% dos pacientes com a doença precisam de internação hospitalar e 5 a 7% precisam de tratamento na UTI."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "07e38262-e329-4927-bed4-c1efc680fcdc",
+  "parentId": "89721285-d63d-48bf-97f0-33515833b458",
+  "rootParentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "name": "covid.faint - yes",
+  "auto": true,
+  "contexts": [
+    "personal_info_context",
+    "covidbreath-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidsymptoms.covidsymptoms-yes.coviduseterms-yes-no.covidbreath-no-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Certo #personal_info_context.name. Se você está sentindo que vai desmaiar,  precisa, sim, procurar um serviço de urgência. Você não pode perder tempo."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

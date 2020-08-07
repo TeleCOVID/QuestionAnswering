@@ -1,0 +1,71 @@
+[
+  {
+    "data": [
+      {
+        "text": "o que o coronavírus pode causar ",
+        "userDefined": false
+      },
+      {
+        "text": "numa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mulher",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " grávida?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Quais são os efeitos da COVID-",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " em ",
+        "userDefined": false
+      },
+      {
+        "text": "uma",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mulher",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " que está gravida?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

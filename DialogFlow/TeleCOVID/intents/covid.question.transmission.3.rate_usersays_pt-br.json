@@ -1,0 +1,66 @@
+[
+  {
+    "data": [
+      {
+        "text": "quantas pessoas podem ser contaminadas por ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " doente?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "uma",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pessoa contaminada transmite o vírus pra quantas pessoas?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " quantos indivíduos, em média, ",
+        "userDefined": false
+      },
+      {
+        "text": "uma",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " pessoa contaminada transmite o coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

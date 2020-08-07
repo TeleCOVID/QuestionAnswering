@@ -1,0 +1,45 @@
+{
+  "id": "b92d4370-ed9e-4c24-b8eb-73fb97834616",
+  "parentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "rootParentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "name": "covid.useterms - yes",
+  "auto": true,
+  "contexts": [
+    "covidsymptoms-followup",
+    "personal_info_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidsymptoms.covidsymptoms-yes",
+      "affectedContexts": [
+        {
+          "name": "coviduseterms-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "#personal_info_context.name, você pode estar gripado, e até ter pego Covid, e mesmo assim não precisar de ir no posto de saúde ou serviço de urgência. Vai depender do que você estiver sentindo. Pergunta importante: você tem falta de ar, dificuldade para respirar ou respiração ofegante?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "c08d9498-2925-4f50-a164-49079589176f",
+  "parentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.10.mask",
+  "auto": true,
+  "contexts": [
+    "covidhelp-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom",
+      "affectedContexts": [
+        {
+          "name": "covidhelp9mask-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1563d1bf-3a95-4064-a0cc-a5ca820d0cc5",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "O que você quer saber? Digite ou fale o número ao lado da pergunta.\n\n1. Devo usar máscara ao sair na rua? \n2. Qual máscara devo usar para me proteger contra o coronavírus?\n3. Posso usar a mesma máscara cirúrgica por quanto tempo?\n4. Posso lavar e reutilizar uma máscara cirúrgica?\n5. Como devo colocar e retirar a máscara cirúrgica?\n6. Voltar às opções anteriores"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

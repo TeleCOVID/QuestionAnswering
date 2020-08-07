@@ -1,0 +1,65 @@
+[
+  {
+    "id": "dff20be6-38dc-4b21-91c9-7ef5e06661f3",
+    "data": [
+      {
+        "text": "Animais Domésticos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "835371aa-41b1-49ab-9ac4-b0ebdf34ff49",
+    "data": [
+      {
+        "text": "12",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ". Animais Domésticos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "883bf85f-a912-4f81-a72f-25b9aeb049e3",
+    "data": [
+      {
+        "text": "12",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "81caa9ca-8d50-4e32-99d6-4f94423ea0ca",
+    "data": [
+      {
+        "text": "12",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

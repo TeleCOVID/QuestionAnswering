@@ -1,0 +1,26 @@
+[
+  {
+    "data": [
+      {
+        "text": "Posso utilizar álcool em gel ao invés de lavar as mãos?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "O álcool em gel substitui a lavagem das mãos?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

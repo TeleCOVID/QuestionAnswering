@@ -1,0 +1,50 @@
+{
+  "id": "508ea77e-54e6-4dc8-aa61-c8e9e6077a23",
+  "name": "covid.question.behavior.2.elevator",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b51aa3b3-b33f-46e6-a872-03a617e48dd9",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se a saída de casa for inevitável, como por exemplo, para fazer compras de alimentos ou medicações, o ideal é que apenas uma pessoa da sua família saia e preferencialmente seja alguém que não pertença aos grupos de risco. Prefira andar de elevador sozinho ou com pessoas da sua família. Procure não tocar nas paredes do elevador e proteja seu dedo com um lenço descartável ou utilize álcool em gel após tocar em qualquer superfície."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

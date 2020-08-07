@@ -1,0 +1,35 @@
+{
+  "id": "2de097ff-2497-43c1-bfa4-6a0a908b3274",
+  "name": "covid.question.pets.8.help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se puder ajudar a alimentar os animais que necessitam dessa ajuda, faça isso com precaução para proteger sua saúde. Se tiver sintomas respiratórios, não saia de casa e peça a outras pessoas para continuarem este trabalho de forma segura."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

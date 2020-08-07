@@ -1,0 +1,35 @@
+{
+  "id": "392e5d07-657f-47b4-aad2-438c09b9012b",
+  "name": "covid.question.treatment.12.vaccine",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Até o presente momento não. Vários laboratórios ao redor do mundo têm se empenhado para desenvolver, testar, produzir e distribuir a vacina, porém este processo demora. Não existem expectativas, em curto prazo (dias ou semanas), de que a vacina esteja liberada para uso pela população."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

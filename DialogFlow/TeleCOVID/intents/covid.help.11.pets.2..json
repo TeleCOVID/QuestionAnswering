@@ -1,0 +1,39 @@
+{
+  "id": "b10c59ed-1cdf-48d1-9434-d73af712f7fc",
+  "parentId": "5beb0926-c994-4ed2-9d0a-5f1d24ed6789",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.11.pets.2.",
+  "auto": true,
+  "contexts": [
+    "covidhelp11pets-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp11pets-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Assim como os humanos, cães e gatos carregam bactérias em suas bocas que podem causar doenças. Além disso, você também pode colocar a saúde do seu animal em risco. É claro que você pode e deve continuar a dar carinho a seu animal, mas lembre-se sempre de lavar as mãos antes e depois de acariciá-lo, abraçá-lo, alimentá-lo ou levá-lo para passear."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

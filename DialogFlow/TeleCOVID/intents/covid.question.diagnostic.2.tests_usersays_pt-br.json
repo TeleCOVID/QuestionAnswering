@@ -1,0 +1,33 @@
+[
+  {
+    "id": "5460afc7-71a5-49db-ae01-fae1ee3daebb",
+    "data": [
+      {
+        "text": "Quais os ",
+        "userDefined": false
+      },
+      {
+        "text": "testes laboratoriais para COVID-19",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " disponíveis no ",
+        "userDefined": false
+      },
+      {
+        "text": "Brasil",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

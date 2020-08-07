@@ -1,0 +1,39 @@
+{
+  "id": "731bcdd2-b136-4dd0-b9d7-70781229a968",
+  "parentId": "2e0a4de9-9436-479d-89c1-22143aea5266",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.5.diagnostic.2.",
+  "auto": true,
+  "contexts": [
+    "covidhelp5diagnostic-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp5diagnostic-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Existem 2 tipos de testes laboratoriais para COVID-19 disponíveis no Brasil: \n\nTestes moleculares, conhecidos por RT-PCR (Real Time- Polymerase Reaction Chain): usam amostras colhidas das vias respiratórias do paciente com uma espécie de cotonete e identificam a infecção ativa pelo vírus;\n\nTestes sorológicos: a partir da amostra de sangue, identifica a resposta imunológica do corpo em relação ao vírus."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

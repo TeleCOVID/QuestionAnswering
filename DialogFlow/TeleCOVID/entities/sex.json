@@ -1,0 +1,9 @@
+{
+  "id": "5f1685e5-a65d-4ee0-b52a-79dbfcce48e7",
+  "name": "sex",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "data": [
+      {
+        "text": "vitamina D trata o covid?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "A vitamina D é ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tratamento eficaz contra o coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

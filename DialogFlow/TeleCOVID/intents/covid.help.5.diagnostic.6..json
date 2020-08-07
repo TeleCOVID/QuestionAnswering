@@ -1,0 +1,39 @@
+{
+  "id": "8c9d6583-f68d-456d-bf63-66a5b47455d1",
+  "parentId": "2e0a4de9-9436-479d-89c1-22143aea5266",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.5.diagnostic.6.",
+  "auto": true,
+  "contexts": [
+    "covidhelp5diagnostic-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp5diagnostic-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Os testes rápidos NÃO tem função diagnóstica (confirmação ou descarte) de COVID-19. Os testes rápidos podem ser usados o no mapeamento do status imunológico de uma população, que ajuda no planejamento quanto às medidas restritivas de controle da pandemia."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

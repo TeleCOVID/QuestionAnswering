@@ -1,0 +1,35 @@
+{
+  "id": "8edc0d64-4c97-4d00-b896-0940f4a5401f",
+  "name": "covid.question.treatment.5.vitaminD",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Até o presente momento, não existe tratamento comprovadamente eficaz contra o coronavírus. Não existem evidências científicas suficientes que nos confirme que a vitamina D seja uma medicação eficaz neste contexto."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

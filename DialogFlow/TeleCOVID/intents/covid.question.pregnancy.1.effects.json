@@ -1,0 +1,35 @@
+{
+  "id": "d7495f2e-1ab0-411b-9b69-232713717937",
+  "name": "covid.question.pregnancy.1.effects",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "As gestantes com COVID-19 podem ter quadros graves da doença na mesma proporção da população jovem.  Aquelas que já tinham alguma doença como diabetes, problema no coração ou pulmão, pressão alta, têm mais risco e precisam de mais cuidados."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "95a7a39a-0927-4be8-9a8d-edfe45056893",
+  "parentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.9.behavior",
+  "auto": true,
+  "contexts": [
+    "covidhelp-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom",
+      "affectedContexts": [
+        {
+          "name": "covidhelp8behavior-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a4de2102-a304-4dd9-bf78-5d1c6397282f",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

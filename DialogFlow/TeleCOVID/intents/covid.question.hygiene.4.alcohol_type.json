@@ -1,0 +1,35 @@
+{
+  "id": "522f4091-7eea-43ae-bb5a-1eae9ed756ac",
+  "name": "covid.question.hygiene.4.alcohol_type",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não. Para que o álcool, tanto líquido quanto em gel, tenha a capacidade de eliminar o vírus, ele deverá ter uma concentração de 70%. Acima de 70% evapora muito rápido, não dá tempo de inativar o vírus. Abaixo de 70% contém mais água e é ineficaz para assepsia. Álcool de bebidas e posto de gasolina Não devem ser usados."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

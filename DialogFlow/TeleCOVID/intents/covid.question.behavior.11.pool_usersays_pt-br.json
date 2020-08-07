@@ -1,0 +1,321 @@
+[
+  {
+    "id": "1a7bee82-fe0d-4a52-91f1-12bfc771068c",
+    "data": [
+      {
+        "text": "eu queria usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " da ",
+        "userDefined": false
+      },
+      {
+        "text": "minha casa",
+        "meta": "@sys.location",
+        "alias": "location1",
+        "userDefined": false
+      },
+      {
+        "text": ", posso?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6bfd422d-7c41-413d-b7d2-b5daff6672f7",
+    "data": [
+      {
+        "text": "eu queria usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " do meu prédio, posso?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "660dc4f8-615a-4e59-8c0b-1136f35733ba",
+    "data": [
+      {
+        "text": "Será que eu posso usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " da ",
+        "userDefined": false
+      },
+      {
+        "text": "minha casa",
+        "meta": "@sys.location",
+        "alias": "location1",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "536bc407-abab-490e-967d-bc7cccb6d723",
+    "data": [
+      {
+        "text": "Será que eu posso usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " do meu prédio?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8ce90185-b8d6-48ef-b438-f25afa3bb40b",
+    "data": [
+      {
+        "text": "Posso usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " na quarentena?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ff55379f-2d3f-411d-bb6b-8139a3b40d23",
+    "data": [
+      {
+        "text": "Posso usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " do prédio?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ac15a502-d495-4511-8ea6-89d521e7679e",
+    "data": [
+      {
+        "text": "Posso usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " da ",
+        "userDefined": false
+      },
+      {
+        "text": "academia",
+        "meta": "@sys.location",
+        "alias": "location1",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "53fd497c-a788-4a08-ab68-16cf220b054a",
+    "data": [
+      {
+        "text": "Posso usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " do ",
+        "userDefined": false
+      },
+      {
+        "text": "clube",
+        "meta": "@sys.location",
+        "alias": "location1",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e09a55ea-4cf4-405b-884d-a0fd548a8908",
+    "data": [
+      {
+        "text": "Posso usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " do ",
+        "userDefined": false
+      },
+      {
+        "text": "condomínio",
+        "meta": "@sys.location",
+        "alias": "location1",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "bf690338-f85f-4a37-9f30-743ffc174e7e",
+    "data": [
+      {
+        "text": "quero usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " da ",
+        "userDefined": false
+      },
+      {
+        "text": "minha casa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ", eu posso?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6c03c577-8abb-433f-8296-767b52c84ff6",
+    "data": [
+      {
+        "text": "Posso usar ",
+        "userDefined": false
+      },
+      {
+        "text": "a piscina",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " da ",
+        "userDefined": false
+      },
+      {
+        "text": "minha casa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

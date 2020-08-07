@@ -1,0 +1,40 @@
+{
+  "id": "00c45bea-9f76-4b66-995f-87f750b71906",
+  "parentId": "0c55dee1-9913-4822-8569-e87091837472",
+  "rootParentId": "a32a3428-3740-4c63-ae35-5129cea845e0",
+  "name": "covid.help.2.transmission.3",
+  "auto": true,
+  "contexts": [
+    "covidhelp-followup",
+    "covidhelp2transmission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidquestionhelp.covidquestionhelp-custom.covidhelp2transmission-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sem as medidas de distanciamento social, estima-se que uma única pessoa contaminada levará a  cerca de 406 novos casos de doença ao final de 30 dias, mas se reduzirmos a exposição em 50%, este número será de 15 novos casos. Já se reduzirmos a exposição em 75%, este número será de 2,5 casos."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

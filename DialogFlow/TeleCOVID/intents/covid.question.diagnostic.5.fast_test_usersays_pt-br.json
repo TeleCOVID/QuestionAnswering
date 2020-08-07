@@ -1,0 +1,33 @@
+[
+  {
+    "id": "13bbe839-0ab3-445f-82a1-883cbe805603",
+    "data": [
+      {
+        "text": "Os testes rápidos podem ser utilizados ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " confirmar ou descartar o diagnóstico de COVID-",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

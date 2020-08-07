@@ -1,0 +1,39 @@
+{
+  "id": "917ed49e-7b44-4bb4-87d1-917e0a0c1968",
+  "parentId": "8ff8c488-d18b-466c-9aa6-dfe574f26e31",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.6.housecare.3.",
+  "auto": true,
+  "contexts": [
+    "covidhelp6housecare-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp6housecare-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sempre que possível, ela não deve fazer isso. Ao preparar alimentos, ela irá encostar e contaminar vários objetos na cozinha, aumentando a chance de transmissão para os outros moradores da casa. A pessoa doente deve se alimentar preferencialmente no quarto em que está isolada, pois vai precisar tirar a máscara para comer, e não deve compartilhar pratos e talheres com os outros moradores da casa."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

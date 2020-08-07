@@ -1,0 +1,35 @@
+{
+  "id": "b64ee90d-a2e9-4a09-bdcd-304a4ab4b190",
+  "name": "covid.question.treatment.2.interferon",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Até o momento, não existe tratamento comprovadamente eficaz contra o coronavírus. Não existem evidências científicas suficientes que nos confirme que o interferon seja uma medicação eficaz. Esta medicação ainda está sendo testada e não deve fazer parte do tratamento de pessoas infectadas. Além disso, esta medicação possui muitos efeitos que podem ser perigosos para a saúde. Precisamos aguardar os resultados de novos estudos para avaliar se esta medicação será incorporada ao tratamento da doença."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "data": [
+      {
+        "text": "posso fazer a consulta do pré-",
+        "userDefined": false
+      },
+      {
+        "text": "natal mesmo com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "parente",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " infectado?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Se alguém da minha casa estiver com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " suspeita de COVID-",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ", eu posso ir à consulta de pré-",
+        "userDefined": false
+      },
+      {
+        "text": "natal",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

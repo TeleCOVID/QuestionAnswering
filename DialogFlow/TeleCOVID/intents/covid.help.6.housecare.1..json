@@ -1,0 +1,39 @@
+{
+  "id": "a1fffcda-a800-4d9e-a45d-6741ab394d06",
+  "parentId": "8ff8c488-d18b-466c-9aa6-dfe574f26e31",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.6.housecare.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp6housecare-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp6housecare-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "A pessoa com sintomas respiratórios deverá ter os seguintes cuidados durante 14 dias, a partir do primeiro dia de sintomas:\n\nSempre que possível, ficar isolada em um quarto próprio, sem acompanhante, mantendo janelas abertas; \nSe for possível, usar um banheiro diferente das outras pessoas da residência; \nNão compartilhar toalhas, talheres, pratos ou qualquer outro objeto com outra pessoa;\nEvitar utilizar áreas comuns da casa. \nQuando sair do quarto, usar máscara cirúrgica e higienizar as mãos antes de tocar em qualquer objeto.\nManter distância mínima de 2 metros de outras pessoas."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

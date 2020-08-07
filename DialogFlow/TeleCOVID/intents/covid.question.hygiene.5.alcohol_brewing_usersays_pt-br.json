@@ -1,0 +1,26 @@
+[
+  {
+    "data": [
+      {
+        "text": "Posso produzir meu próprio álcool em gel?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Posso fazer o meu próprio álcool em gel em casa?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

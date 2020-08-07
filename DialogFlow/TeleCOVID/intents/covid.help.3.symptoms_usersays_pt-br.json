@@ -1,0 +1,78 @@
+[
+  {
+    "id": "a082e1e3-5a19-48a3-96ef-f509b1d6cfb2",
+    "data": [
+      {
+        "text": "sintoma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f7d76893-52fb-40b8-b644-a9af54946450",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ccf56997-6037-4108-b6d3-28541f64b216",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9b63a702-10f0-47d9-abe4-f7d48903b22c",
+    "data": [
+      {
+        "text": "Sintomas da Doença",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b44d39b0-17fb-4ddf-b797-60dd1088e25e",
+    "data": [
+      {
+        "text": "3",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ". Sintomas da Doença",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

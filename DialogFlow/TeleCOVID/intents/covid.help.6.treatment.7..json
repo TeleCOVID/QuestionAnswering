@@ -1,0 +1,55 @@
+{
+  "id": "15cb7f13-bbdf-4adf-a5ac-c859d5480cfe",
+  "parentId": "bd91db73-bd25-49a1-bbc8-54809e376796",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.6.treatment.7.",
+  "auto": true,
+  "contexts": [
+    "covidhelp5treatment-followup",
+    "covidhelp6treatment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp6treatment-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6b16230f-30b2-461d-957f-5e03e40587fe",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não existem evidências científicas que confirmem que a ivermectina seja uma medicação eficaz. Os resultados de estudos que mostraram algum benefício da ivermectiva foram em laboratório, em dose que seria tóxica em humanos. Dessa foram, a ivermectina não deve fazer parte do protocolo para o tratamento de pessoas infectadas."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

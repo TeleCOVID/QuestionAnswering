@@ -1,0 +1,39 @@
+{
+  "id": "7bd969e7-3dc9-4ccb-9a78-a7aa306e3c82",
+  "parentId": "c08d9498-2925-4f50-a164-49079589176f",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.9.mask.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp9mask-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp9mask-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sim. Embora ainda não haja evidências científicas robustas sobre a eficácia das máscaras caseiras na prevenção da doença, o Ministério da Saúde recomenda que toda a população utilize máscaras de fabricação caseira ao sair na rua. Como não há segurança se ela é capaz de proteger as pessoas da contaminação, ela não substitui as medidas de higienização das mãos e o distanciamento social. Lembre-se de que você deve evitar ao máximo sair de casa. Quando for inevitável sair, como para fazer compras de alimentos ou medicamentos, o ideal é que seja um morador da casa que não pertença aos grupos de risco. As máscaras comerciais devem ser reservadas para uso para pacientes com sintomas respiratórios e pelos profissionais de saúde."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

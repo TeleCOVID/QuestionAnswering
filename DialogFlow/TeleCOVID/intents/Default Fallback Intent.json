@@ -1,0 +1,38 @@
+{
+  "id": "72d9a74d-142f-4546-a734-ffa60cba2a10",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Lamento, eu não compreendi. Pode repetir mais uma vez? Caso precise, digite ou fale \"ajuda\" para listar o que posso fazer por você.",
+            "Desculpe, eu não compreendi. Pode repetir mais uma vez? Caso precise, digite ou fale \"ajuda\" para listar o que posso fazer por você.",
+            "Infelizmente, eu não captei o que deseja. Pode repetir mais uma vez? Caso precise, digite ou fale \"ajuda\" para listar o que posso fazer por você.",
+            "Não consegui compreender, desculpe. Pode repetir mais uma vez? Caso precise, digite ou fale \"ajuda\" para listar o que posso fazer por você."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "3a72245c-2ce9-4e5f-806f-c939d8f8e918",
+  "name": "covid.question.orientation.5.gravity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se você apresentar falta de ar (parado ou ao fazer alguma movimentação como andar, tomar banho ou arrumar a casa), se tiver sensação de desmaio ou se a sua febre persistir por mais de 03 dias ou desaparecer e retornar após 02 dias, deverá procurar imediatamente um serviço de saúde para avaliação médica."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

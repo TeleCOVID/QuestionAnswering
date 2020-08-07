@@ -1,0 +1,35 @@
+{
+  "id": "690c714c-af5b-42f8-9c08-fbc42268472f",
+  "name": "covid.question.treatment.3.antiretrovirals",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Até o presente momento, não existe tratamento comprovadamente eficaz contra o coronavírus. Não existem evidências científicas suficientes que nos confirme que os antirretrovirais, que são medicações utilizadas no tratamento de pessoas infectadas pelo HIV, sejam eficazes contra o coronavírus. Estas medicações ainda estão sendo testadas e não devem fazer parte do tratamento de pessoas infectadas. Precisamos aguardar os resultados de novos estudos para avaliar se esta medicação será incorporada ao tratamento da doença."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

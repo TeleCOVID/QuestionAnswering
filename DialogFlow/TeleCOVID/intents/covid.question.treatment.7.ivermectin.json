@@ -1,0 +1,35 @@
+{
+  "id": "cb846942-a3b6-45af-9081-210643b79e89",
+  "name": "covid.question.treatment.7.ivermectin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não existem evidências científicas que confirmem que a ivermectina seja uma medicação eficaz. Os resultados de estudos que mostraram algum benefício da ivermectiva foram em laboratório, em dose que seria tóxica em humanos. Dessa foram, a ivermectina não deve fazer parte do protocolo para o tratamento de pessoas infectadas."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

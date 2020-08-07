@@ -1,0 +1,39 @@
+{
+  "id": "a957547d-7131-4b09-b672-33b4e11930a2",
+  "parentId": "5beb0926-c994-4ed2-9d0a-5f1d24ed6789",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.11.pets.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp11pets-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp11pets-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "De acordo com a Organização Mundial da Saúde (OMS), até o momento não há evidências científicas que comprovem que animais de estimação possam adoecer pelo novo coronavírus ou que funcionem como reservatório do vírus. O assunto continua sendo estudado. É fundamental manter hábitos de higiene, lavando as mãos antes e depois do contato com os animais ou seus pertences. Evitar sair de casa. As patas e o corpo do animal podem se contaminar com partículas virais, sendo necessário lavar com água e sabão ao retornar ao domicílio."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

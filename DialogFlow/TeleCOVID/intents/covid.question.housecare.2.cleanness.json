@@ -1,0 +1,35 @@
+{
+  "id": "4ce64181-846f-488e-bc0d-831f25995c7d",
+  "name": "covid.question.housecare.2.cleanness",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Deve-se ter cuidado para evitar transmissão para outros moradores. Devem ser realizadas 2 limpezas: uma específica para o cômodo onde o paciente está isolado e outra para o restante da casa. O ideal é que o próprio doente limpe o cômodo onde está isolado. Se isso não for possível, a pessoa responsável pelo cuidado do doente deverá usar, se possível, máscara cirúrgica, luvas, óculos e avental. Antes de colocar as luvas, lavar as mãos com água e sabão. A limpeza das superfícies que acumulam sujeira mais \"grossa\", como o pó que vemos a olho nu, deverá ser feita primeiramente com água e sabão e, em seguida, solução de água sanitária  (diluir 40mL de água sanitária em 1 litro de água) ou álcool 70%. Se houver apenas um banheiro na casa, o doente deve lavar as mãos antes de tocar qualquer coisa e ele deve ser limpo após cada uso. Tomar cuidado com a torneira da pia, de preferência, fechar com um papel após lavar as mãos, ou limpar a torneira após tocar com a mão. Panos, esponjas e outros utensílios deverão ser lavados com água e sabão."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

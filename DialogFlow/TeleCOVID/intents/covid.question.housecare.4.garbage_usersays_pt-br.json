@@ -1,0 +1,63 @@
+[
+  {
+    "data": [
+      {
+        "text": "O que fazer com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "o lixo gerado por uma pessoa com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Como devemos proceder com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o lixo gerado por ",
+        "userDefined": false
+      },
+      {
+        "text": "uma",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pessoa de nossa casa que esteja com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " sintomas de infecção respiratória?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

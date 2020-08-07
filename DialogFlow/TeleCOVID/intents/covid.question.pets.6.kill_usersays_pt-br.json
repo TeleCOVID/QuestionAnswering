@@ -1,0 +1,56 @@
+[
+  {
+    "data": [
+      {
+        "text": "devo sacrificar ",
+        "userDefined": false
+      },
+      {
+        "text": "meu pet",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "devo matar meu anima de estimação?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Devo abandonar ou sacrificar meu animal de estimação como medida de ",
+        "userDefined": false
+      },
+      {
+        "text": "segurança",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "05bb4895-a2f7-48d9-8d39-0c0051503e79",
+  "parentId": "95a7a39a-0927-4be8-9a8d-edfe45056893",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.8.behavior.7.",
+  "auto": true,
+  "contexts": [
+    "covidhelp8behavior-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp8behavior-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "É importante que as janelas do transporte público estejam todas abertas, se possível. Evite tocar olhos, boca, nariz ou qualquer outra região do rosto até que desça do transporte e faça a higiene das mãos, com álcool em gel ou água e sabão.  Evite utilizar o transporte público se houver aglomeração. Sente a uma distância de 2 metros das outras pessoas."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

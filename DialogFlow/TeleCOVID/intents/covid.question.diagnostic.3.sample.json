@@ -1,0 +1,35 @@
+{
+  "id": "3ba76c6d-58d6-48c5-a44a-6ffff31ba804",
+  "name": "covid.question.diagnostic.3.sample",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Para a realização dos testes moleculares (RT-PCR), utiliza-se amostras coletadas das vias respiratórias superiores (swabs de orofaringe e/ou nasofaringe) e/ou inferiores de pacientes com quadro clínico suspeito. Para a realização dos testes sorológicos, coleta-se o sangue do paciente com quadro clínico suspeito."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

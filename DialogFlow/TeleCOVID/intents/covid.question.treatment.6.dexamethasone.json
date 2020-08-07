@@ -1,0 +1,35 @@
+{
+  "id": "a59e315a-13f7-4487-9ab7-253d9595d04e",
+  "name": "covid.question.treatment.6.dexamethasone",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Em 16/06/2020, a Universidade de Oxford divulgou os resultados preliminares de um estudo denominado RECOVERY, que demonstraram que a administração de dexametasona associou-se à redução da mortalidade em pacientes com COVID-19 sob ventilação mecânica (1 vida salva a cada 8 pacientes tratados) ou requerendo suporte de oxigênio (1 vida salva a cada 25 pacientes tratados). Nos pacientes com COVID-19 que não necessitaram de oxigênio, não houve sinais de recuperação com o uso da medicação. Seu uso deve ser apenas com prescrição médica, para o grupo de pacientes para o qual foram observados benefícios."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

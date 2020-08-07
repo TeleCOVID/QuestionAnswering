@@ -1,0 +1,35 @@
+{
+  "id": "5ec19077-84eb-412d-bd51-6384fbdcf5fb",
+  "name": "covid.question.pregnancy.8.prebirth",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se alguém em sua casa estiver em isolamento domiciliar, entre em contato com a unidade básica de saúde para reagendarem a sua consulta, se possível para após o período de isolamento (14 dias após início dos sintomas ou contato com quem está com sintomas)."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "a1357f51-acc0-4eda-b4b8-442327e5593f",
+  "name": "covid.question.mask.2.mask_type",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Pessoas que estejam com sintomas respiratórios, se precisarem sair de casa, devem utilizar a máscara cirúrgica padrão. As máscaras  N95 e PFF2 deverão ser reservadas para o uso dos profissionais de saúde em atendimento a pessoas com sintomas respiratórios. A máscara de tecido é recomendada pelo Ministério da Saúde para pessoas sem sintomas, ao saírem de casa. Como não há segurança se ela é capaz de proteger as pessoas da contaminação, ela não substitui as medidas de higienização das mãos e o distanciamento social."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

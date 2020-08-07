@@ -1,0 +1,40 @@
+{
+  "id": "1a8d80ca-ff8c-4de7-bcb9-a43e2df1aa5c",
+  "parentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "rootParentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "name": "covid.userterms - no",
+  "auto": true,
+  "contexts": [
+    "covidsymptoms-followup",
+    "personal_info_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidsymptoms.covidsymptoms-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sem problemas #personal_info_context.name. Como podemos te ajudar? Você quer saber se está com Covid? Ou Quer saber mais sobre a doença?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

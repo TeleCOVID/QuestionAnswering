@@ -1,0 +1,35 @@
+{
+  "id": "036eaf85-3f7d-4920-8321-8bca761c7628",
+  "name": "covid.question.diagnostic.5.fast_test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não. Os testes rápidos NÃO tem função diagnóstica (confirmação ou descarte) de COVID-19, pois podem ter resultados falso-positivos ou falso-negativos. O diagnóstico laboratorial confirmatório desta doença deve ser feito pelos testes moleculares (RT-PCR)."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

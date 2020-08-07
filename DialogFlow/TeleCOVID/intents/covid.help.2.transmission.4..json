@@ -1,0 +1,39 @@
+{
+  "id": "10aefa20-2b6c-4af2-a4ab-369223990d53",
+  "parentId": "f0f2423e-b65a-4d8e-aa7a-3b7fe8ece0e8",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.2.transmission.4.",
+  "auto": true,
+  "contexts": [
+    "covidhelp2transmission-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp2transmission-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Estes dados ainda estão em estudo. Um estudo recente publicado em uma revista respeitada (NEJM) mostrou que em média o vírus permanece por até 3 horas no ar, até 24 horas no papelão e 3 dias no plástico e nos metais."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

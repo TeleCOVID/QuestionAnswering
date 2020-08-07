@@ -1,0 +1,39 @@
+{
+  "id": "18a71a7b-8aef-4041-a7f2-252b919345ff",
+  "parentId": "5beb0926-c994-4ed2-9d0a-5f1d24ed6789",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.11.pets.6.",
+  "auto": true,
+  "contexts": [
+    "covidhelp11pets-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp11pets-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Nunca! Até o momento, não há evidências de que cães ou gatos possam adoecer pelo novo coronavírus ou transmitir a doença para os seres humanos. O abandono não deve ser uma opção."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ca5e46be-cdcf-4d71-a42c-5552b9473b6f",
+  "parentId": "4c02b4cb-c446-4b7e-9576-94919034d7b2",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.10.pregnancy.5.",
+  "auto": true,
+  "contexts": [
+    "covidhelp10pregnancy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp10pregnancy-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Os cuidados são: evitar visitas nesse período de pandemia, lavar bem as mãos antes e depois de quaisquer cuidados com o seu filho. Você e todas as pessoas que moram na mesma casa devem se cuidar para evitar se contaminar pelo coronavírus."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

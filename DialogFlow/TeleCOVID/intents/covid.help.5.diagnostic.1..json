@@ -1,0 +1,39 @@
+{
+  "id": "fc7c546f-93b6-468c-a32f-6ab9a8352bb5",
+  "parentId": "2e0a4de9-9436-479d-89c1-22143aea5266",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.5.diagnostic.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp5diagnostic-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp5diagnostic-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "No Brasil, atualmente a confirmação de casos de COVID-19 está sendo feita de 2 maneiras:\n\nDiagnóstico laboratorial: quando o caso suspeito apresenta resultado positivo no teste molecular (RT-PCR) para COVID-19. \n\nDiagnóstico clínico-epidemiológico: quando o caso suspeito apresente histórico de contato próximo ou domiciliar com caso confirmado laboratorialmente para COVID-19 E apresente febre OU pelo menos um dos sinais ou sintomas respiratórios, nos últimos 14 dias após o contato, e para o qual não foi possível realizar a investigação laboratorial específica."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

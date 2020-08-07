@@ -1,0 +1,35 @@
+{
+  "id": "33aab5de-f4fd-476d-9901-80f0bcdfbe69",
+  "name": "covid.question.general.1.coronavirus",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Os coronavírus representam uma família de vírus causadores de doenças em seres humanos. As infecções por coronavírus são transmitidas entre animais e de animais para os seres humanos."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

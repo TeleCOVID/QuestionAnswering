@@ -1,0 +1,44 @@
+[
+  {
+    "data": [
+      {
+        "text": "Posso ir ",
+        "userDefined": false
+      },
+      {
+        "text": "para a academia",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Eu posso ir ",
+        "userDefined": false
+      },
+      {
+        "text": "à academia",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "37b6e367-235c-46e3-b454-8599d683542e",
+  "name": "covid.question.pregnancy.3.breast_feeding",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "A amamentação poderá ser continuada. Sugere-se algumas precauções para reduzir os riscos de contaminação do bebê, como lavar bem as mãos antes e depois de cada mamada, usar máscara que cubra a boca e o nariz durante a amamentação."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,134 @@
+{
+  "id": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "covidhelp-followup-2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "termos de uso do serviço",
+          "url": "https://telessaude.hc.ufmg.br/Termo_de_Uso.pdf",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "custom_payload",
+          "platform": "google",
+          "title": "",
+          "payload": {
+            "google": {
+              "html": "google assistant payload"
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "platform": "facebook",
+          "title": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "payload": {
+                  "html": "facebook custom payload"
+                },
+                "type": ""
+              }
+            }
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Ok. Não se preocupe que eu irei te ajudar. Para isso, digite ou fale uma das opções abaixo:\n\n0. Estou infectado pelo Coronavírus?\n1. Informações Gerais;\n2. Informações sobre a Transmissão do Vírus;\n3. Sintomas da Doença;\n4. Orientações para Pacientes com Suspeita da Doença;\n5. Diagnóstico;\n6. Tratamento;\n7. Cuidados em Casa;\n8. Higiene das Mãos e Superfícies;\n9. Comportamento e Hábito de Vida;\n10. Uso de Máscara;\n11. Gravidez e Coronavírus;\n12. Animais Domésticos.",
+            "Ok. Não se preocupe que eu irei te ajudar. Para isso, digite ou fale o assunto da sua dúvida, ou a palavra \"todas\" para ver todas as opções."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "htmlResponse": "\u003cimg src\u003d\u0027https://telessaude.hc.ufmg.br/wp-content/uploads/2015/05/Mapa-da-Rede-com-nova-universidade-site-home.jpg\u0027 alt\u003d\u0027Rede de Teleassistência de MG\u0027 width\u003d\u0027400\u0027\u003e"
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Esse seria o bloco 2 da resposta."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "suggestions": [
+              "Sim",
+              "Não"
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Novo balão!!!",
+            "outra variante."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "HELP"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

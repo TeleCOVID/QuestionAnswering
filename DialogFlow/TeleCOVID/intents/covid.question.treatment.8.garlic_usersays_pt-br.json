@@ -1,0 +1,46 @@
+[
+  {
+    "id": "575d461c-a246-4316-8206-ff0d80d0200d",
+    "data": [
+      {
+        "text": "o alho é ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tratamento ao coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "bb0afc06-4008-47e4-9348-332a7e082f22",
+    "data": [
+      {
+        "text": "Comer alho ",
+        "userDefined": false
+      },
+      {
+        "text": "ajuda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " a evitar a infecção pelo coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "40f835de-f454-40e8-9698-6345b404ab12",
+    "data": [
+      {
+        "text": "anti-inflamatórios são ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tratamento eficaz contra o coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a60a2685-17e9-4967-b838-5325b677922d",
+    "data": [
+      {
+        "text": "Uma pessoa que esteja com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " infecção suspeita ou confirmada por coronavírus pode usar anti-inflamatório?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "3777255e-4921-4dbe-aed8-b2c101555c6e",
+  "parentId": "c08d9498-2925-4f50-a164-49079589176f",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.9.mask.5.",
+  "auto": true,
+  "contexts": [
+    "covidhelp9mask-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp9mask-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Antes de colocar a máscara, higienize as mãos com água e sabão ou álcool em gel. Após a colocação da máscara, evite tocar na parte da frente, que cobre o rosto. A mesma máscara pode ser utilizada pelo período máximo de 2 horas e sempre retire pelas alças laterais. A máscara não poderá ser reutilizada em hipótese alguma e deverá ser descartada em lixeira fechada. Após o descarte da máscara, higienize as mãos com água e sabão ou álcool em gel."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

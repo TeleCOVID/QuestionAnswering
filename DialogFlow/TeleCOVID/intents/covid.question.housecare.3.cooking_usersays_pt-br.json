@@ -1,0 +1,63 @@
+[
+  {
+    "data": [
+      {
+        "text": "Um infectado com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " coronavírus pode cozinhar em casa?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "A pessoa com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " sintomas gripais pode preparar ",
+        "userDefined": false
+      },
+      {
+        "text": "a comida",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "outros",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " moradores da casa?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

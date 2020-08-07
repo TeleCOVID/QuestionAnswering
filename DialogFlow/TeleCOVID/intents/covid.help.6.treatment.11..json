@@ -1,0 +1,39 @@
+{
+  "id": "17a2a141-4c9b-438f-b5d2-25eab70ab7ad",
+  "parentId": "bd91db73-bd25-49a1-bbc8-54809e376796",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.6.treatment.11.",
+  "auto": true,
+  "contexts": [
+    "covidhelp5treatment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp5treatment-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "A suspensão desses medicamentos pode levar a consequências sérias para a sua saúde. As evidências científicas a respeito da influência dos remédios de pressão alta na infecção por coronavírus são questionáveis, portanto, você não deve parar de usá-los por conta própria, a não ser por orientação médica."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

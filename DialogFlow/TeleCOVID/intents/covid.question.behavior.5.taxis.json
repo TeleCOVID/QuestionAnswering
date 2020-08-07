@@ -1,0 +1,78 @@
+{
+  "id": "7ea4961d-dab9-483f-8480-0fb56f6eba80",
+  "name": "covid.question.behavior.5.taxis",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c6e3f089-dbb4-4f07-a90b-224773b4988f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0af4b206-c326-44df-98a6-01222baf1873",
+          "name": "geo-state",
+          "required": false,
+          "dataType": "@sys.geo-state",
+          "value": "$geo-state",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a86a4b77-f9cd-4c22-82bf-6c5ac8bf35ce",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Lembre-se que a saída de casa deve ser feita apenas em situações inevitáveis. Nestes casos, se for possível, escolha o transporte individual, carro próprio, em carros de aplicativos ou táxis, pois minimiza seu contato com outras pessoas e a chance de infecção pelo coronavírus. Dentro do carro, solicite ao motorista que deixe as janelas abertas. Não toque no rosto, higienize as mãos após sair do carro e coloque as roupas para lavar ao chegar em casa."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

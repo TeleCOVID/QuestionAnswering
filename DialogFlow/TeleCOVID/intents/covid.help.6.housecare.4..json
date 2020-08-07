@@ -1,0 +1,39 @@
+{
+  "id": "347b63f3-d4e7-4ec9-81e8-64fa1c861f36",
+  "parentId": "8ff8c488-d18b-466c-9aa6-dfe574f26e31",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.6.housecare.4.",
+  "auto": true,
+  "contexts": [
+    "covidhelp6housecare-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp6housecare-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "A pessoa com sintomas de infecção respiratória deve ter um lixo no cômodo em que está isolada, para descartar resíduos. O lixo deve ser isolado em um saco plástico e lacrado após o uso. A pessoa que for coletá-lo para descarte, se possível, deve usar luvas. As mãos deverão ser higienizadas com água e sabão ou álcool em gel logo em seguida."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

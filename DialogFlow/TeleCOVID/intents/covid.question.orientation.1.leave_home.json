@@ -1,0 +1,35 @@
+{
+  "id": "9a31f2d0-9829-48f3-aa25-3a81073cf062",
+  "name": "covid.question.orientation.1.leave_home",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Idealmente o paciente com sintomas respiratórios só deve sair de casa  se precisar ir ao médico, usando uma máscara cirúrgica. Em qualquer outra situação, uma pessoa que more com você e que não pertença aos grupos de risco, deve fazer as atividades que envolvam sair de casa, como compra de alimentos e remédios."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "data": [
+      {
+        "text": "como me tratar com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Como",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "vou me tratar se eu estiver com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

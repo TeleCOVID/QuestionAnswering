@@ -1,0 +1,39 @@
+{
+  "id": "e7464725-131b-424a-b805-b64f0a3b20e4",
+  "parentId": "5beb0926-c994-4ed2-9d0a-5f1d24ed6789",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.11.pets.3.",
+  "auto": true,
+  "contexts": [
+    "covidhelp11pets-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp11pets-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "O Centro de Controle de Doenças (CDC) recomenda:\nRestrinja o contato com animais de estimação e com outras pessoas;\nSe possível, peça que outra pessoa cuide de seu animal enquanto você estiver doente;\nEvite o contato mais próximo com seu animal, incluindo abraços, beijos, carinhos e lambidas;\nNão compartilhe alimentos com seus animais;\nSe o contato for necessário, lave as mãos com água e sabão antes e após o contato;\nUse máscara facial."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

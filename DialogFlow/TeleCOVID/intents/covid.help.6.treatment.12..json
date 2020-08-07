@@ -1,0 +1,39 @@
+{
+  "id": "62f00743-96c6-4c9b-a240-fc9935436f9a",
+  "parentId": "bd91db73-bd25-49a1-bbc8-54809e376796",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.6.treatment.12.",
+  "auto": true,
+  "contexts": [
+    "covidhelp5treatment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp5treatment-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Até o presente momento não. Vários laboratórios ao redor do mundo têm se empenhado para desenvolver, testar, produzir e distribuir a vacina, porém este processo demora. Não existem expectativas, em curto prazo (dias ou semanas), de que a vacina esteja liberada para uso pela população."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

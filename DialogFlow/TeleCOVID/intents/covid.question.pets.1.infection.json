@@ -1,0 +1,35 @@
+{
+  "id": "7e164d76-85c2-4293-b5c0-efecab587d24",
+  "name": "covid.question.pets.1.infection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "De acordo com a Organização Mundial da Saúde (OMS), até o momento não há evidências científicas que comprovem que animais de estimação possam adoecer pelo novo coronavírus ou que funcionem como reservatório do vírus. O assunto continua sendo estudado. É fundamental manter hábitos de higiene, lavando as mãos antes e depois do contato com os animais ou seus pertences. Evitar sair de casa. As patas e o corpo do animal podem se contaminar com partículas virais, sendo necessário lavar com água e sabão ao retornar ao domicílio."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

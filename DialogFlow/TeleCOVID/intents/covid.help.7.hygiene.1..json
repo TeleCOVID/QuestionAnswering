@@ -1,0 +1,39 @@
+{
+  "id": "14188538-cd79-4c33-afb4-a73638cb19e7",
+  "parentId": "7379f652-c244-46b1-ae02-77436275aae8",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.7.hygiene.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp7hygiene-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp7hygiene-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "O primeiro passo é retirar todos os adornos, incluindo anéis, aliança, pulseiras e relógio. A lavagem das mãos deve ser feita com água e sabão por um período mínimo de 20 segundos. Toda a superfície da mão, incluindo a palma, o dorso, a região entre os dedos, as unhas e os punhos, deve ser higienizada. Se não for possível fazer a lavagem das mãos, pode-se usar álcool em gel a 70%, desde que não haja sujeira visível."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

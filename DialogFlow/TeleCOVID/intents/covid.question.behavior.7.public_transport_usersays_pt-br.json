@@ -1,0 +1,56 @@
+[
+  {
+    "data": [
+      {
+        "text": "Como devo utilizar ",
+        "userDefined": false
+      },
+      {
+        "text": "o transporte",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " público?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Como me manter salvo no ônibus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "O que devo fazer ao utilizar ",
+        "userDefined": false
+      },
+      {
+        "text": "o transporte",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " público?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

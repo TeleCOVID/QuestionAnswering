@@ -1,0 +1,35 @@
+{
+  "id": "ab847314-94c0-43c7-977e-6edfa0363977",
+  "name": "covid.question.treatment.13.vaccine_flu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não. A vacina anual para a gripe não possui qualquer efeito protetor contra o coronavírus. Entretanto, esta vacina possui efeito contra os principais vírus causadores da gripe e deve ser utilizada pelos grupos recomendados."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

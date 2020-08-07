@@ -1,0 +1,39 @@
+{
+  "id": "00a3ca72-701f-48c4-b454-c652b72b103d",
+  "parentId": "95a7a39a-0927-4be8-9a8d-edfe45056893",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.8.behavior.11.",
+  "auto": true,
+  "contexts": [
+    "covidhelp8behavior-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp8behavior-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se for a piscina do condomínio ou de algum clube ou academia, você não deve utilizar, mesmo que não haja outras pessoas utilizando no momento, pois é indispensável que evitemos ao máximo o contato com outros indivíduos e o contato com superfícies potencialmente contaminadas. Se for a piscina da sua casa, utilizada apenas pelas pessoas que moram na mesma residência que você, poderá utilizar, desde que não esteja com sintomas respiratórios."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

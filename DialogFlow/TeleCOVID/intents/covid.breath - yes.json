@@ -1,0 +1,46 @@
+{
+  "id": "e7d6c0e0-840e-4af1-8263-aa6ead01a6b2",
+  "parentId": "b92d4370-ed9e-4c24-b8eb-73fb97834616",
+  "rootParentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "name": "covid.breath - yes",
+  "auto": true,
+  "contexts": [
+    "coviduseterms-yes-followup",
+    "personal_info_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidsymptoms.covidsymptoms-yes.coviduseterms-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "personal_info_context",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Certo #personal_info_context.name. Se você está sentindo falta de ar, precisa, sim, procurar um serviço de urgência. Você não pode perder tempo."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,39 @@
+{
+  "id": "a608cfcf-8dad-47f0-bee0-0fa67771b537",
+  "parentId": "6e3b661d-9950-4617-98cc-b25b852e358a",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.3.symptoms.3.",
+  "auto": true,
+  "contexts": [
+    "covidhelp3symptoms-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp3symptoms-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Em estudos com pacientes chineses, a taxa de mortalidade da doença foi de 2,3%. Entretanto, em outros países esta taxa pode variar para menos ou para mais. É o caso da Coréia do Sul, que registrou uma taxa de letalidade de 0,7% e da Itália que, pelo contrário, tem registrado taxas mais elevadas, em torno de 10%. Até o momento, dados brasileiros estimam 6,7% de letalidade."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

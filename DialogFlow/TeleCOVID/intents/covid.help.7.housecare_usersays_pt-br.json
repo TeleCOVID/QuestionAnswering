@@ -1,0 +1,85 @@
+[
+  {
+    "id": "bf33e993-0f95-497d-b2c7-c98dc4e53b2c",
+    "data": [
+      {
+        "text": "Cuidados em Casa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "67a4f09e-42ee-4de1-bc59-fbbc0b9f21f3",
+    "data": [
+      {
+        "text": "7",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ". ",
+        "userDefined": false
+      },
+      {
+        "text": "Cuidados em Casa",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6d355a3f-b1e9-4b22-b05b-8378d6847af0",
+    "data": [
+      {
+        "text": "sete",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "36577fda-29a9-4be5-8884-23382f61803e",
+    "data": [
+      {
+        "text": "7",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1fc56328-0bc0-4bd7-9de2-cde5cf2c2c0d",
+    "data": [
+      {
+        "text": "7",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "020a90d5-47f2-4134-9594-155d8e5e759a",
+  "parentId": "95a7a39a-0927-4be8-9a8d-edfe45056893",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.8.behavior.4.",
+  "auto": true,
+  "contexts": [
+    "covidhelp8behavior-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp8behavior-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Sim, o celular é um meio importante de infecção pelo coronavírus e você deve higienizá-lo com frequência. Não se esqueça de remover a capinha de proteção para a higienização completa do aparelho. A capinha também deverá ser higienizada. Se o fabricante permitir, use álcool em gel ou água sanitária diluída em água (diluir 40 mL de água sanitária em 1 litro de água). O aparelho não pode estar carregando na tomada para fazer a higienização."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

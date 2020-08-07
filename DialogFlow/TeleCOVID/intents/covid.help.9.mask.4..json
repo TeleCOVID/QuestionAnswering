@@ -1,0 +1,39 @@
+{
+  "id": "42f9b262-1ee3-4f69-a6a0-ddc46e385ddc",
+  "parentId": "c08d9498-2925-4f50-a164-49079589176f",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.9.mask.4.",
+  "auto": true,
+  "contexts": [
+    "covidhelp9mask-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp9mask-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Não. A máscara cirúrgica nunca deverá ser lavada ou reaproveitada."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

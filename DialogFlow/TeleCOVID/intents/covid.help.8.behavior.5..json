@@ -1,0 +1,39 @@
+{
+  "id": "bf78248e-fa9d-4f81-a118-8ab295784f1f",
+  "parentId": "95a7a39a-0927-4be8-9a8d-edfe45056893",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.8.behavior.5.",
+  "auto": true,
+  "contexts": [
+    "covidhelp8behavior-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp8behavior-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Lembre-se que a saída de casa deve ser feita apenas em situações inevitáveis. Nestes casos, se for possível, escolha o transporte individual, carro próprio, em carros de aplicativos ou táxis, pois minimiza seu contato com outras pessoas e a chance de infecção pelo coronavírus. Dentro do carro, solicite ao motorista que deixe as janelas abertas. Não toque no rosto, higienize as mãos após sair do carro e coloque as roupas para lavar ao chegar em casa."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

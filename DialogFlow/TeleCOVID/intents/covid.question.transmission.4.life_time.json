@@ -1,0 +1,35 @@
+{
+  "id": "01baaa46-c2f7-40d3-bcaa-b71a207d1841",
+  "name": "covid.question.transmission.4.life_time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Estes dados ainda estão em estudo. Um estudo recente publicado em uma revista respeitada (NEJM) mostrou que em média o vírus permanece por até 3 horas no ar, até 24 horas no papelão e 3 dias no plástico e nos metais."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "14f375b4-2e4b-4c82-b267-185e0c04925a",
+  "parentId": "bd91db73-bd25-49a1-bbc8-54809e376796",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.6.treatment.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp5treatment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp5treatment-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Até o presente momento não. Os tratamentos que têm sido divulgados pela mídia ainda são experimentais e não temos evidências de que eles realmente funcionem. O uso de tais tratamentos pode causar efeitos colaterais ao doente e, por isso, não deve ser encorajado. O tratamento do coronavírus deverá ser feito em seu próprio domicílio, com repouso, uso de medicações para a febre, hidratação e alimentação adequada, a não ser que sinais de gravidade estejam presentes."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": "b0252af8-a399-41f8-b664-030be4d43227",
+  "name": "covid.question.pregnancy.4.baby_test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Se o seu bebê estiver bem, isso não será necessário. Você deve observá-lo e tomar os cuidados para evitar que ele seja contaminado, tais como lavar bem as mãos antes e depois de qualquer cuidado com o seu filho, usar máscara que cubra a boca e o nariz quando amamentar, manter o berço a uma distância idealmente a 2 metros da sua cama."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "22dded8b-644c-484f-a38c-51f00369c756",
+    "data": [
+      {
+        "text": "devo trocar minha medicação de hipertensão?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7da0c4af-555b-4c35-a64f-58b2b11c2d9a",
+    "data": [
+      {
+        "text": "Sou hipertenso. Devo avaliar com",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " meu médico a troca da medicação?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

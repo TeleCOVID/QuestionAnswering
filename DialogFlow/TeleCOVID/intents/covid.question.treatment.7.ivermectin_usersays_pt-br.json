@@ -1,0 +1,46 @@
+[
+  {
+    "id": "6aaed717-c9c0-4603-af2f-9a60f7098705",
+    "data": [
+      {
+        "text": "A ivermectina é a cura ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " o coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c31ea169-03d7-47e2-9e09-f6f0ebe22d4b",
+    "data": [
+      {
+        "text": "A ivermectina é ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " tratamento eficaz contra o coronavírus?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

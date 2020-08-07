@@ -1,0 +1,28 @@
+[
+  {
+    "value": "Masculino",
+    "synonyms": [
+      "Masculino",
+      "Homem",
+      "Macho",
+      "M",
+      "masc"
+    ]
+  },
+  {
+    "value": "Feminino",
+    "synonyms": [
+      "Feminino",
+      "Mulher",
+      "Fêmea",
+      "fem",
+      "F"
+    ]
+  },
+  {
+    "value": "Outro",
+    "synonyms": [
+      "Outro"
+    ]
+  }
+]

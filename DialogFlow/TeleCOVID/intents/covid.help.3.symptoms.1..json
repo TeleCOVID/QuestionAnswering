@@ -1,0 +1,39 @@
+{
+  "id": "26968320-9adc-4d9b-bc03-cf8ec9fcf9dc",
+  "parentId": "6e3b661d-9950-4617-98cc-b25b852e358a",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.3.symptoms.1.",
+  "auto": true,
+  "contexts": [
+    "covidhelp3symptoms-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp3symptoms-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "As manifestações frequentes são febre, tosse seca ou com pouca secreção e sensação de falta de ar. Algumas pessoas podem apresentar nariz entupido ou escorrendo, dor de garganta, de cabeça ou no corpo, alteração na capacidade de sentir cheiro ou gosto dos alimentos, enquanto outras podem apresentar enjoo, vômitos e diarreia. Os casos mais graves podem evoluir com intensa falta de ar e sensação de desmaio."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

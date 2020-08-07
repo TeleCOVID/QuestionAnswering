@@ -1,0 +1,39 @@
+{
+  "id": "9c190a5b-f885-488a-87ac-ff0bc3aff4cd",
+  "parentId": "bd91db73-bd25-49a1-bbc8-54809e376796",
+  "rootParentId": "3c3f0c2b-adf2-4ea4-a61f-e1fc1965ad2a",
+  "name": "covid.help.6.treatment.10.",
+  "auto": true,
+  "contexts": [
+    "covidhelp5treatment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidhelp.covidhelp-custom.covidhelp5treatment-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Houve uma recomendação inicial de não usar o anti-inflamatório ibuprofeno para tratar pessoas com doença causada pelo coronavírus, pelo risco de aumentar o risco de evolução para a forma grave da doença, mas ainda são necessários mais estudos para saber se ele é prejudicial. A recomendação do Ministério da Saúde é preferir uso de analgésicos comuns, como dipirona e paracetamol, mas se o anti-inflamatório for necessário, ele pode ser usado. Neste caso, usar a menor dose necessária para alívio dos sintomas."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

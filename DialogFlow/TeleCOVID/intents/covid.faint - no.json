@@ -1,0 +1,45 @@
+{
+  "id": "df56cefe-6a82-4bcc-aacf-6cb01fc24677",
+  "parentId": "89721285-d63d-48bf-97f0-33515833b458",
+  "rootParentId": "fad246a2-919c-4bd1-b5d2-42b2b122a74f",
+  "name": "covid.faint - no",
+  "auto": true,
+  "contexts": [
+    "personal_info_context",
+    "covidbreath-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "covidsymptoms.covidsymptoms-yes.coviduseterms-yes-no.covidbreath-no-no",
+      "affectedContexts": [
+        {
+          "name": "covidfaint-no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Você tem febre há mais de 3 dias?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

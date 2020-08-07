@@ -1,0 +1,35 @@
+{
+  "id": "966aac92-34bf-4c97-9bd5-767d1f71060c",
+  "name": "covid.question.pets.7.dog_walker",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Siga as recomendações do Conselho Veterinário de seu estado e/ou da prefeitura da sua cidade. Uma alternativa é substituir os passeios com os cães por cuidados dentro de casa, brincando e oferecendo atividades para que eles se exercitem. A lavagem adequada das mãos antes e depois da interação com os animais é essencial."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

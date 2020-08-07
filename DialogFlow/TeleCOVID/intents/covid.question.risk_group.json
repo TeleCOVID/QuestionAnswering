@@ -1,0 +1,35 @@
+{
+  "id": "0e47a204-12fc-4112-9cc8-6e02835b10cb",
+  "name": "covid.question.risk_group",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Você está no grupo de risco se tem:\nmais de 60 anos;\npressão alta;\nalgum problema de coração como angina, infarto, insuficiência cardíaca;\ndiabetes;\nproblema de pulmão como asma, bronquite, enfisema, fibrose cística;  \nproblema de rim;\nestá fazendo tratamento de  câncer;\nfez transplante ;\nusa algum remédio que afeta a imunidade;\ntem Síndrome de Down;\nHIV; \nou está gravida."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
