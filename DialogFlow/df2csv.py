@@ -12,7 +12,7 @@ import os
 import json
 
 data = []
-data.append(['RESPONSE ID', 'INTENT NAME', 'QUESTION', 'ORDER', 'MESSAGE_ID', 'MESSAGE'])
+data.append(['RESPONSE ID', 'INTENT NAME', 'QUESTION', 'MESSAGE_ID', 'VERBALIZATION_ID', 'TEXT'])
 for fname in os.listdir('TeleCovid/intents'):
     if '_usersays_pt-br' not in fname:
         try:

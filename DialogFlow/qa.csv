@@ -1,4 +1,4 @@
-RESPONSE ID;INTENT NAME;QUESTION;ORDER;MESSAGE_ID;MESSAGE
+RESPONSE ID;INTENT NAME;QUESTION;MESSAGE_ID;VERBALIZATION_ID;TEXT
 0;covid.help.7.hygiene.5.;cinco;0;0;Não. Não se recomenda a confecção caseira de álcool em gel, já que o procedimento envolve riscos de queimaduras graves e porque não se pode garantir que o produto tenha uma concentração de 70%, o que é indispensável para a eliminação do vírus.
 0;covid.help.1.general.3;tres;0;0;SARS-CoV-2 é o nome dado ao coronavírus causador da pandemia atual.
 0;covid.help.5.diagnostic.8.previous;oito;0;0;NOT TEXT
