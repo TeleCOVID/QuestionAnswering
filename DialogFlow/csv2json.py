@@ -55,7 +55,7 @@ for i in range(len(list(intent_and_answers.keys()))):
 		with open(os.path.join('TeleCOVID/intents/',fname), 'w') as fp:
 		    json.dump(file, fp, ensure_ascii=False, indent=4)
 	else:
-		print('Ainda não existe a intent' + fname + 'no dialogflow')
+		print('Ainda não existe a intent ' + fname + ' no dialogflow')
 
 
 
