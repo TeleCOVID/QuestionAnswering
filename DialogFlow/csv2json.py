@@ -1,3 +1,12 @@
+'''
+baixe o csv do google docs, certifique-se que o nome do arquivo baixado é:'new_qa - Sheet1.csv'
+baixe o zip do dialogflow,extraia e certifique-se qeu ele a pasta se chama 'TeleCOVID'
+deixe esses 2 arquivos na mesma pasta desse script
+rode 'python3 csv2json.py'
+faça upload do zip gerado no dialogflow
+
+'''
+
 import pandas as pd
 import os
 import json
@@ -15,38 +24,25 @@ df = pd.read_csv('new_qa - Sheet1.csv')
 #que estao presentes no csv
 intent_and_answers = {}
 
-for i in range(len(df)):
-    intent_name =df['INTENT NAME'][i]
+names = df['INTENT NAME'].unique()
 
-    answers = []
+for name in names:
+	#answers = []
+	df_name = df.where(df['INTENT NAME'] == name).dropna()
 
-    #comeca do 5 por ser onde comecam as respostas
-    j = 5
-    size = len(df.columns.tolist())
+	#answers.append(df_name['TEXT'].tolist())
+	intent_and_answers[name] = df_name['TEXT'].tolist()
 
-    #verifico se nao e Nan ja que  Nan sao do tipo float
-    while type(df.iloc[i][j]) == type('string'):
-        answers.append(df.iloc[i][j]) 
-        j+=1
+#cria um log com os intents que não estao no dialog flow
+with open('log.txt', 'w') as f:
+	f.write("LISTA DE INTENTS QUE AINDA NÃO ESTÃO NO DIALOGFLOW \n\n\n")
 
-        if j == size:
-            break
-            
-    intent_and_answers[intent_name] = answers
-
-
-
-#percorre todos os intents que estao no dicionario
-for i in range(len(list(intent_and_answers.keys()))):
-
-	#pega o nome do intent
-	name = list(intent_and_answers.keys())[i]
+for name, answer in intent_and_answers.items():
 	fname = name + '.json'
 	if fname in os.listdir('TeleCOVID/intents'):
 		file = json.load(open(os.path.join('TeleCOVID/intents/', fname)))
 		    
 		for response in file['responses']:
-		    j = 0
 		    #aqui trocamos as respostas pelas encontradas no csv
 		    for message in response['messages']:
 		        message['speech'] = intent_and_answers[name]
@@ -55,8 +51,9 @@ for i in range(len(list(intent_and_answers.keys()))):
 		with open(os.path.join('TeleCOVID/intents/',fname), 'w') as fp:
 		    json.dump(file, fp, ensure_ascii=False, indent=4)
 	else:
-		print('Ainda não existe a intent ' + fname + ' no dialogflow')
-
+		#atualiza o log
+		with open('log.txt', 'a+') as f:
+			f.write(name + '\n')
 
 
 
