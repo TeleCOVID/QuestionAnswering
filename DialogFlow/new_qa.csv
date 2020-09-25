@@ -1,0 +1,576 @@
+,INTENT NAME,QUESTION,MESSAGE_SEQ,VERBALIZATION_ID,TEXT
+0,covid.breath - no,não sinto,0,0,Você sente que vai desmaiar?
+0,covid.breath - yes,sinto,0,0,"Certo #personal_info_context.name. Se você está sentindo falta de ar, precisa, sim, procurar um serviço de urgência. Você não pode perder tempo."
+0,covid.faint - no,não sinto,0,0,Você tem febre há mais de 3 dias?
+0,covid.faint - yes,sinto,0,0,"Certo #personal_info_context.name. Se você está sentindo que vai desmaiar, precisa, sim, procurar um serviço de urgência. Você não pode perder tempo."
+0,covid.fever - no,não tenho,0,0,NOT TEXT
+0,covid.fever - no,não tenho,1,0,"Você está tossindo?
+ Tem catarro?
+ Está com dor de garganta?
+ Está com dificuldade para engolir?
+ Está com nariz entupido ou escorrendo?
+ Está com dor de cabeça?
+ Parou de sentir cheiro?
+ Parou de sentir gosto dos alimentos? Responda ""sim"" se tiver algum destes sintomas, e ""não"" caso não tenha nenhum deles."
+0,covid.fever - yes,estou com febre,0,0,"Certo #personal_info_context.name. Se você está com febre há mais de 3 dias, precisa, sim, procurar um serviço de urgência."
+0,covid.help,me mostre as opções do que você pode fazer?,0,0,NOT TEXT
+0,covid.help,me mostre as opções do que você pode fazer?,1,0,NOT TEXT
+0,covid.help,me mostre as opções do que você pode fazer?,2,0,NOT TEXT
+0,covid.help,me mostre as opções do que você pode fazer?,3,0,"Ok. Não se preocupe que eu irei te ajudar. Para isso, digite ou fale uma das opções abaixo:
+ 
+
+ 0. Estou infectado pelo Coronavírus?
+ 1. Informações Gerais;
+ 2. Informações sobre a Transmissão do Vírus;
+ 3. Sintomas da Doença;
+ 4. Orientações para Pacientes com Suspeita da Doença;
+ 5. Diagnóstico;
+ 6. Tratamento;
+ 7. Cuidados em Casa;
+ 8. Higiene das Mãos e Superfícies;
+ 9. Comportamento e Hábito de Vida;
+ 10. Uso de Máscara;
+ 11. Gravidez e Coronavírus;
+ 12. Animais Domésticos."
+0,covid.help,me mostre as opções do que você pode fazer?,3,1,"Ok. Não se preocupe que eu irei te ajudar. Para isso, digite ou fale o assunto da sua dúvida, ou a palavra ""todas"" para ver todas as opções."
+0,covid.help,me mostre as opções do que você pode fazer?,4,0,NOT TEXT
+0,covid.help,me mostre as opções do que você pode fazer?,5,0,Esse seria o bloco 2 da resposta.
+0,covid.help,me mostre as opções do que você pode fazer?,6,0,NOT TEXT
+0,covid.help,me mostre as opções do que você pode fazer?,7,0,Novo balão!!!
+0,covid.help,me mostre as opções do que você pode fazer?,7,1,outra variante.
+0,covid.help.0.screening,0,0,0,NOT TEXT
+0,covid.help.1.general,Informações Gerais,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. O que são os coronavírus?
+ 2. Por que recebem o nome de coronavírus?
+ 3. O que é SARS-CoV-2?
+ 4. O que é COVID-19?
+ 5. O que é pandemia?
+ 6. Voltar às opções anteriores"
+0,covid.help.1.general.1,"um
+",0,0,Coronavírus é uma família de vírus que causa doença no ser humano. A doença passa de um animal para outro e do animal para o ser humano.
+0,covid.help.1.general.2,"dois
+Por que recebem o nome de coronavírus?",0,0,"Porque o vírus tem a forma parecida com uma coroa. Os cientistas usam a palavra corona, que em latim significa coroa."
+0,covid.help.1.general.3,tres,0,0,SARS-CoV-2 é o nome do coronavírus que causa a COVID-19.
+0,covid.help.1.general.4,"quatro
+O que é COVID-19?",0,0,"COVID-19 é o nome da doença causada pelo novo coronavírus, que é chamado de SARS-CoV-2."
+0,covid.help.1.general.5,"cinco
+O que é pandemia?",0,0,"Pandemia é quando uma doença passa a infectar um grande número de pessoas em muitos países ao mesmo tempo. Quando se declara pandemia, quer dizer que alguma doença está se espalhando sem controle.
+Quando aparecem vírus novos, a chance de se ter uma pandemia é muito grande porque o corpo das pessoas não têm defesas contra o vírus e não existe remédio ou vacina.
+"
+0,covid.help.1.general.6.previous,seis,0,0,NOT TEXT
+0,covid.help.1.general.previous,6 .,0,0,"Escolha uma das opções abaixo:
+ 
+
+ 0. Diagnóstico do Coronavírus;
+ 1. Informações Gerais;
+ 2. Informações sobre a Transmissão do Vírus;
+ 3. Sintomas da Doença;
+ 4. Orientações para Pacientes com Suspeita da Doença;
+ 5. Tratamento;
+ 6. Cuidados em Casa;
+ 7. Higiene das Mãos e Superfícies;
+ 8. Comportamento e Hábito de Vida;
+ 9. Uso de Máscara;
+ 10. Gravidez e Coronavírus;
+ 11. Animais Domésticos."
+0,covid.help.2.transmission,dois,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Como o coronavírus é transmitido entre as pessoas?
+ 2. Durante quanto tempo o indivíduo contaminado é capaz de transmitir o coronavírus?
+ 3. Para quantos indivíduos, em média, uma pessoa contaminada transmite o coronavírus?
+ 4. Por quanto tempo o coronavírus permanece vivo nas diferentes superfícies?
+ 5. Voltar às opções anteriores"
+0,covid.help.2.transmission.1,um,0,0,"A doença é transmitida por gotículas que saem da boca ou nariz de uma pessoa infectada quando ela fala, tosse ou espirra. Essas gotículas chegam a até 1 metro de distância, mas podem chegar mais longe quando a pessoa espirra ou tosse. 
+A doença se espalha principalmente quando uma pessoa toca com a mão em algum lugar que ficou contaminado por uma pessoa doente.
+O importante é lavar sempre as mãos depois de tocar em qualquer coisa e não tocar no rosto."
+0,covid.help.2.transmission.2,"dois
+Durante quanto tempo a pessoa doente pode transmitir o coronavírus?",0,0,"Pelo que se sabe, a pessoa doente transmite a doença enquanto tem febre, tosse, coriza, nariz entupido ou escorrendo e dor de garganta. Mas ela também pode transmitir antes de ter sintomas e até 14 dias depois que os sintomas começaram. Por isso, é muito importante manter o distanciamento social."
+0,covid.help.2.transmission.3,três,0,0,"Se uma pessoa não evita o contato com outras, ela começa uma cadeia de transmissão  que no final de 30 dias pode levar a centenas de pessoas infectadas. Mas se a pessoa evita pelo menos a metade dos contatos com outras pessoas, no final, cerca de 15 pessoas vão ser infectadas. Se ela evita ainda mais o contato com outras pessoas, no final, menos de 3 pessoas vão ser infectadas."
+0,covid.help.2.transmission.4,quatro,0,0,"Isso ainda está sendo estudado. Os cientistas descobriram que o vírus fica vivo até 3 horas no ar, até 24 horas no papelão e 3 dias no plástico e no metal."
+0,covid.help.2.transmission.5.previous,cinco,0,0,NOT TEXT
+0,covid.help.2.transmission - previous,cinco,0,0,"Escolha uma das opções abaixo:
+ 
+
+ 0. Diagnóstico do Coronavírus;
+ 1. Informações Gerais;
+ 2. Informações sobre a Transmissão do Vírus;
+ 3. Sintomas da Doença;
+ 4. Orientações para Pacientes com Suspeita da Doença;
+ 5. Tratamento;
+ 6. Cuidados em Casa;
+ 7. Higiene das Mãos e Superfícies;
+ 8. Comportamento e Hábito de Vida;
+ 9. Uso de Máscara;
+ 10. Gravidez e Coronavírus;
+ 11. Animais Domésticos."
+0,covid.help.3.symptoms,sintoma,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Quais são os principais sinais e sintomas da doença causada pelo coronavírus?
+ 2. A doença causada pelo coronavírus é grave?
+ 3. Qual a taxa de mortalidade associada à doença causada pelo coronavírus?
+ 4. Qual o motivo da enorme preocupação e mobilização mundial para conter a disseminação do vírus?
+ 5. Como saber se pertenço aos grupos de risco?
+ 6. Voltar às opções anteriores"
+0,covid.help.3.symptoms.1.,um,0,0,"O mais frequente é febre, tosse seca ou com pouca secreção, e sensação de falta de ar. Algumas pessoas podem ter nariz entupido ou escorrendo, dor de garganta, cabeça ou no corpo. Outras pessoas têm enjoo, vômito, diarreia, e não sentem o cheiro ou gosto dos alimentos. Quando é grave, piora a falta de ar e a pessoa pode sentir que vai desmaiar."
+0,covid.help.3.symptoms.2.,dois,0,0,"Para a maioria das pessoas não, mas para algumas pessoas a doença pode ser grave e elas podem até morrer. Em estudos na China, a doença foi leve em 81% dos casos, grave em 14% deles e gravíssima em 5%. Em geral, cerca de 15% dos pacientes precisam ficar internados no hospital e 5 % precisam de UTI."
+0,covid.help.3.symptoms.3.,tres,0,0,"Varia muito de país para país e de região para região num mesmo país. Depende das estratégias para combater o vírus e do sistema de saúde em cada lugar. 
+Na China, de cada 1000 pessoas que pegam a doença, 23 morrem. Na Coreia do Sul, de cada 1000 pessoas que pegam a doença, 7 morrem. Na Itália, de cada 1000 pessoas que pegam a doença, 100 morrem. No Brasil, em agosto de 2020, de cada 1000 pessoas que pegaram a doença, 32 morreram."
+0,covid.help.3.symptoms.4.,quatro,0,0,"Como é um vírus muito contagioso, pode contaminar a maior parte da população se as pessoas não seguirem as orientações. Como cerca de 15% dos doentes precisam ficar internados no hospital, se grande parte das pessoas for infectada, podem faltar leitos para internar as pessoas doentes. Isso pode causar ainda mais mortes."
+0,covid.help.3.symptoms.5.,cinco,0,0,"Os principais grupos de risco são pessoas com:
+•    mais de 60 anos;
+•    pressão alta;
+•    doenças do coração ou que já tiveram infarto;
+•    diabetes;
+•    doença de pulmão;
+•    problema de rim;
+•    câncer;
+•    que fizeram transplante ou tomam medicamentos que afetam a imunidade; 
+•    Síndrome de Down;
+•    grávidas. "
+0,covid.help.3.symptoms.6.previous,seis,0,0,NOT TEXT
+0,covid.help.4.orientation,4,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Se eu estiver com algum sintoma gripal, posso sair de casa?
+ 2. Se eu estiver com algum sintoma gripal, devo procurar o serviço de saúde?
+ 3. Como saber se pertenço aos grupos de risco?
+ 4. Como vou me tratar se eu estiver com o coronavírus?
+ 5. Quais são os sinais de gravidade da infecção por coronavírus?
+ 6. Voltar às opções anteriores"
+0,covid.help.4.orientation.1.,um,0,0,"O paciente com sintomas respiratórios só deve sair de casa se precisar ir no médico e sempre com máscara. Em qualquer outra situação, uma pessoa que more junto e que não seja grupo de risco deve fazer tudo que precisa ser feito fora de casa, como comprar comida e remédio."
+0,covid.help.4.orientation.2.,dois,0,0," A maior parte das pessoas com sintomas de gripe tem efeitos leves.  Nesses casos, não precisa procurar o serviço de urgência. Pode procurar atendimento em unidade básica de saúde, outro serviço ambulatorial ou serviço de telemedicina, se disponível na sua região. Mas, se a pessoa sente dificuldade de respirar, tem respiração ofegante, sente que vai desmaiar ou tem febre por mais de 3 dias seguidos ou febre que passa e volta depois de 2 dias, precisa procurar o serviço de urgência."
+0,covid.help.4.orientation.3.,tres,0,0,"Os principais grupos de risco são pessoas são pessoas com:
+•	mais de 60 anos;
+•	pressão alta;
+•	doenças do coração ou que já tiveram infarto;
+•	diabetes;
+•	doença de pulmão;
+•	problema de rim;
+•	câncer;
+•	que fizeram transplante ou tomam medicamentos  que afetam a imunidade; 
+•	Síndrome de Down;
+•	grávidas. "
+0,covid.help.4.orientation.4.,quatro,0,0,"A maioria das pessoas tem sintomas leves e somente precisa repousar, tomar remédio para dor ou febre, beber bastante água e se alimentar de forma saudável.  Não tem, até agora, remédio para COVID. Você pode procurar ajuda no posto de saúde ou em qualquer serviço médico.  Se tiver algum sintoma grave, como falta de ar, sensação de desmaio ou febre que fica mais de 3 dias ou que some e aparece de novo, precisa ir no pronto socorro. 
+Nos primeiros 14 dias da doença, o doente deve tentar:
+•	ficar sozinho num cômodo, sem outras pessoas, com as janelas abertas;
+•	usar um banheiro somente para ele;
+•	ter toalha, talher, prato e qualquer outro objeto somente para ele usar;
+•	não ficar em cômodos da casa com as outras pessoas;
+•	se tiver que sair do quarto, sair de máscara e lavar as mãos ou passar álcool em gel antes de tocar em algum objeto;
+•	ficar pelo menos a 2 metros de distância das outras pessoas."
+0,covid.help.4.orientation.5,cinco,0,0,"Se você sente falta de ar quando anda, toma banho, arruma a casa, ou mesmo fica parado, se sente que vai desmaiar ou se tem febre por mais de 3 dias seguidos ou febre que passa e volta depois de 2 dias,  precisa procurar o serviço de urgência o mais rápido possível."
+0,covid.help.4.orientation.6.previous,seis,0,0,NOT TEXT
+0,covid.help.5.diagnostic,Diagnóstico,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Como é realizado o diagnóstico de COVID-19?
+ 2. Quais os testes laboratoriais para COVID-19 disponíveis no Brasil?
+ 3. Quais as amostras do paciente são coletadas para realização dos testes de COVID-19?
+ 4. Após quanto tempo do início dos sintomas os testes sorológicos podem ser realizados?
+ 5. Os testes rápidos podem ser utilizados para confirmar ou descartar o diagnóstico de COVID-19?
+ 6. Qual a aplicabilidade dos testes rápidos?
+ 7. A detecção de IgG em um teste sorológico indica que o paciente em questão está imune contra a COVID-19?
+ 8. Voltar às opções anteriores"
+0,covid.help.5.diagnostic.1.,um,0,0,"No Brasil, atualmente há 2 maneiras:
+1. Quando dá positivo o teste molecular (RT-PCR) ou sorológico feito no laboratório. 
+2. Quando não é possível fazer o teste e o médico verifica que a pessoa teve contato próximo ou domiciliar com alguma pessoa infectada que testou positivo e tem febre OU pelo menos um sinal de problema respiratório, em até 14 dias depois de ter tido contato com a pessoa infectada."
+0,covid.help.5.diagnostic.2.,dois,0,0,"Tem 2 tipos de teste: 
+•   teste molecular, conhecido como RT-PCR, que é feito com uma espécie de cotonete e detecta se tem infecção ativa pelo vírus;
+•  teste sorológico, que é feito com uma amostra de sangue e detecta se o corpo tem imunidade ao vírus."
+0,covid.help.5.diagnostic.3.,três,0,0,"Para o teste que detecta se a pessoa está com o vírus, se usa uma amostra de secreção coletada com um cotonete pelo nariz ou pela boca. Para o teste que detecta se a pessoa tem a imunidade ao vírus, se usa uma amostra de sangue."
+0,covid.help.5.diagnostic.4.,quatro,0,0,8 dias depois de começar a ter sintomas.
+0,covid.help.5.diagnostic.5.,cinco,0,0,"Não. O teste rápido NÃO funciona para confirmar ou descartar a COVID-19, porque pode dar resultado falso. O teste para confirmar a doença deve ser o RT-PCR ou o teste sorológico."
+0,covid.help.5.diagnostic.6.,seis,0,0,O teste rápido é útil para as autoridades saberem quantas pessoas já tiveram COVID e se precisa manter ou mudar as medidas de isolamento ou distanciamento social.
+0,covid.help.5.diagnostic.7.,sete,0,0,Não é possível dizer com certeza que a pessoa não está mais infectada ou que tem imunidade contra o vírus para sempre.
+0,covid.help.5.diagnostic.8.previous,oito,0,0,NOT TEXT
+0,covid.help.6.treatment,6 . Tratamento,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Existe tratamento para eliminar o coronavírus?
+ 2. O interferon é um tratamento contra o coronavírus?
+ 3. Os antirretrovirais são tratamentos eficazes contra o coronavírus?
+ 4. A cloroquina e a hidroxicloroquina são tratamentos eficazes contra o coronavírus?
+ 5. A vitamina D é um tratamento eficaz contra o coronavírus?
+ 6. A dexametasona é um tratamento eficaz contra o coronavírus?
+ 7. A ivermectina é um tratamento eficaz contra o coronavírus?
+ 8. Comer alho ajuda a evitar a infecção pelo coronavírus?
+ 9. Uma pessoa que esteja com infecção suspeita ou confirmada por coronavírus pode usar ibuprofeno?
+ 10. Uma pessoa que esteja com infecção suspeita ou confirmada por coronavírus pode usar anti-inflamatório?
+ 11. Sou hipertenso. Devo avaliar com meu médico a troca da medicação?
+ 12. Existe vacina para o coronavírus?
+ 13. A vacina de gripe protege contra o coronavírus?
+ 14. Voltar às opções anteriores"
+0,covid.help.6.treatment.1.,um,0,0,"Até o momento não. Não está comprovado que os tratamentos que aparecem na mídia são eficazes. Eles podem causar efeitos colaterais; por isso, devem ser evitados. Para tratar o coronavírus, deve-se ficar em casa, fazer repouso, tomar remédio para a febre, se hidratar, comer de forma saudável, e procurar atendimento médico em caso de sintoma grave."
+0,covid.help.6.treatment.2.,dois,0,0,"Até o momento, não tem tratamento eficaz contra o coronavírus. O interferon ainda está sendo testado e não deve ser usado para tratar as pessoas infectadas. Além disso, possui muitos efeitos perigosos para a saúde. Precisamos aguardar novos estudos para ver se esse remédio pode ser usado para tratar a COVID."
+0,covid.help.6.treatment.3.,três,0,0,"Até o presente momento, não existe tratamento eficaz contra o coronavírus. Os antirretrovirais, usados no tratamento de pessoas com HIV, ainda estão sendo testados e não devem ser usados para tratar as pessoas infectadas. Além disso, têm muitos efeitos perigosos para a saúde. Precisamos aguardar novos estudos para ver se os antirretrovirais podem ser usados para tratar a COVID."
+0,covid.help.6.treatment.4.,quatro,0,0,"Até o momento, não tem tratamento eficaz contra o coronavírus. Testes com cloroquina e hidroxicloroquina não mostraram efeito positivo em casos leves ou graves da doença. Além disso, têm muitos efeitos perigosos para a saúde, como arritmias do coração e alteração visual. "
+0,covid.help.6.treatment.5.,cinco,0,0,"Até o momento, não tem tratamento eficaz contra o coronavírus. Não tem provas científicas suficientes de que a vitamina D seja eficaz. "
+0,covid.help.6.treatment.6.,seis,0,0,Um estudo da Universidade de Oxford mostrou que a dexametasona ajudou a reduzir o número de mortes em pacientes com COVID que precisaram de ventilação mecânica (1 pessoa salva a cada 8 pacientes tratados) ou estavam com  oxigênio (1 pessoas salva a cada 25 pacientes tratados). Os pacientes com COVID que não precisaram de oxigênio não tiveram benefício com a dexametasona. Este remédio só deve ser usado se o médico prescrever e somente pelos pacientes que possam se beneficiar dele. 
+0,covid.help.6.treatment.7.,sete,0,0,Não tem prova científica de que ivermectina é eficaz. Alguns estudos no laboratório mostraram que a ivermectiva é eficaz contra o vírus mas em uma quantidade que seria muito tóxica para as pessoas. Ivermectina não deve ser usada para tratar as pessoas infectadas.
+0,covid.help.6.treatment.8.,oito,0,0,"O alho tem propriedades contra algumas bactérias, mas não tem prova de que é eficaz contra o coronavírus."
+0,covid.help.6.treatment.9.,nove,0,0,"O ibuprofeno é um remédio anti-inflamatório que alivia febre e dores. Foi falado que as pessoas com COVID não deveriam usar esse medicamento porque podia agravar a doença, mas ainda não tem pesquisas que comprovem se ele é prejudicial. O Ministério da Saúde recomenda usar dipirona e paracetamol. Se tiver de usar anti-inflamatório, pode usar ibuprofeno, mas na dose mínima."
+0,covid.help.6.treatment.10.,dez,0,0,"Foi falado que as pessoas com COVID não deveriam usar esse medicamento porque podia agravar a doença, mas ainda não tem pesquisas que comprovem se ele é prejudicial. O Ministério da Saúde recomenda usar dipirona e paracetamol. Se tiver de usar anti-inflamatório, pode usar numa dose mínima."
+0,covid.help.6.treatment.11.,onze,0,0,Parar de tomar os remédios para a pressão pode ser muito grave para a saúde. Não está comprovado que os remédios para a pressão afetem o tratamento da pessoa com  COVID. Não se deve parar de tomar remédio por conta própria. Deve-se falar sempre com o médico.
+0,covid.help.6.treatment.12.,doze,0,0,"Por enquanto não tem vacina comprovada. Tem laboratórios no mundo tentando descobrir a vacina, mas isso demora. Mesmo quando a vacina estiver pronta, vai demorar para que possa ser aplicada."
+0,covid.help.6.treatment.13.,treze,0,0,Não. A vacina da gripe não combate o coronavírus. Mas combate o vírus que causa a gripe e deve ser aplicada nos grupos recomendados pelo Ministério da Saúde. 
+0,covid.help.6.treatment.14.previous,cartorze,0,0,NOT TEXT
+0,covid.help.7.housecare,Cuidados em Casa,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Se houver uma pessoa com sintomas gripais que resida na mesma casa que eu, como devemos proceder?
+ 2. Como fazer a limpeza da casa quando houver alguma pessoa com sintomas gripais?
+ 3. A pessoa com sintomas gripais pode preparar a comida para outros moradores da casa?
+ 4. Como devemos proceder com o lixo gerado por uma pessoa de nossa casa que esteja com sintomas de infecção respiratória?
+ 5. Como devemos proceder com a lavagem das roupas de uma pessoa de nossa casa que esteja com sintomas gripais?
+ 6. Voltar às opções anteriores"
+0,covid.help.6.housecare.1.,um,0,0,"Durante 14 dias, desde que começar a passar mal, a pessoa com sintomas de gripe deve:
+•	se tiver jeito, ficar sozinha num cômodo, sem outras pessoas, com as janelas abertas;
+•	se tiver jeito, usar um banheiro somente para ela;
+•	ter toalha, talher, prato e qualquer outro objeto somente para ela usar;
+•	não ficar em cômodos da casa com as outras pessoas;
+•	se tiver que sair do quarto, sair de máscara e lavar as mãos ou passar álcool em gel antes de tocar em algum objeto;
+•	ficar pelo menos a 2 metros de distância das outras pessoas."
+0,covid.help.6.housecare.2.,dois,0,0,"Precisa ter cuidado para que as outras pessoas não se contagiem. Precisa limpar o cômodo onde fica a pessoa com sintomas de gripe e também o restante da casa. A pessoa doente tem que limpar o cômodo onde fica. Se não tiver jeito, quem for limpar o cômodo do doente tem que usar máscara, luva, óculos e avental. Antes de pôr a luva, precisa lavar as mãos com água e sabão. Onde acumula mais sujeira e dá para ver poeira precisa lavar primeiro com água e sabão e depois com água sanitária diluída em água da torneira ou com álcool em gel. Pode ser um copo tipo de requeijão (200ml) de água sanitária em 5 litros de água da torneira, ou 8 colheres de chá (40 ml) de água sanitária em 1 litro de água da torneira. Se só tem um banheiro em casa, a pessoa doente deve lavar as mãos antes de tocar em qualquer coisa dentro e alguém precisa limpar o banheiro depois que ela usar. Depois de lavar as mãos, usar um papel para fechar a torneira. Se tocou na torneira antes de lavar as mãos, precisa limpar a torneira depois de lavar. Pano, esponja e qualquer outra coisa precisa lavar com água e sabão."
+0,covid.help.6.housecare.3.,tres,0,0,Não pode. Se cozinhar vai acabar encostando e contaminando a cozinha e tem mais chance de contaminar os outros. A pessoa doente precisa comer sozinha no quarto dela porque ela vai tirar a máscara para comer. Não pode usar o mesmo prato e talher dos outros.
+0,covid.help.6.housecare.4.,quatro,0,0,"Precisa ter uma lixeira no cômodo onde fica a pessoa doente. Somente para ela. O lixo deve ficar num saco plástico. Precisa pôr luva e fechar bem o saco plástico para pôr na rua. Depois de mexer com o lixo, precisa lavar bem as mãos com água e sabão ou álcool em gel."
+0,covid.help.6.housecare.5.,cinco,0,0,"Precisa ter um cesto de roupa só para a pessoa doente e usar luva quando for tocar nele. Depois de mexer com a roupa, lavar as mãos com água e sabão ou álcool em gel. Não precisa usar água sanitária para lavar a roupa."
+0,covid.help.6.housecare.6.previous,seis,0,0,NOT TEXT
+0,covid.help.8.hygiene,8 . Higiene das Mãos e Superfícies,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Como devo fazer a lavagem das mãos?
+ 2. Posso utilizar sabão em barra para fazer a lavagem das mãos?
+ 3. O álcool em gel substitui a lavagem das mãos?
+ 4. Posso utilizar qualquer tipo de álcool?
+ 5. Posso fazer o meu próprio álcool em gel em casa?
+ 6. Posso utilizar água sanitária para fazer a limpeza das superfícies?
+ 7. Voltar às opções anteriores"
+0,covid.help.7.hygiene.1.,um,0,0,"Tirar anéis, aliança, pulseiras ou relógios. Lavar as mãos com água e sabão esfregando pelo menos 20 segundos. Lavar a parte de cima da mão, a palma, a parte entre os dedos, unhas, e punhos. Se não tem como lavar as mãos com água e sabão e as mãos não estão muito sujas, pode usar álcool em gel de 70%, esfregando as mãos. "
+0,covid.help.7.hygiene.2.,dois,0,0,Pode sim.
+0,covid.help.7.hygiene.3.,três,0,0,"Se as mãos não estão muito sujas, pode. O álcool em gel 70% mata o vírus. Lembre de esfregar o álcool na mão toda, na parte de cima, na palma, na parte entre os dedos, nas unhas e nos punhos."
+0,covid.help.7.hygiene.4.,quatro,0,0,"Não. Para matar o vírus, tem que passar o álcool líquido ou em gel 70%. Álcool de mais de 70% evapora rápido e não dá tempo de matar o vírus. Álcool de menos de 70% tem mais água e não mata o vírus. Não passe álcool de bebida e nem do posto de gasolina."
+0,covid.help.7.hygiene.5.,cinco,0,0,Não. Não se recomenda fazer álcool em gel em casa. Pode ter risco de queimadura grave e não dá para saber se fica 70% mesmo para que mate o vírus.
+0,covid.help.7.hygiene.6.,seis,0,0,"Sim. Pode usar água sanitária diluída em água. Pode ser um copo tipo de requeijão (200ml) de água sanitária em 5 litros de água da torneira. Ou 8 colheres de chá (40 ml) de água sanitária em 1 litro de água da torneira. A água sanitária diluída em água só pode usar para limpar objetos, parede, piso e vidros. Nunca para lavar o corpo."
+0,covid.help.7.hygiene.7.previous,sete,0,0,NOT TEXT
+0,covid.help.9.behavior,9 . Comportamento e Hábito de Vida,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Posso visitar os parentes normalmente?
+ 2. O que devo fazer no elevador para diminuir a chance de contaminação? Devo ir de escadas ou tento pegar o elevador sozinho?
+ 3. Posso retirar dinheiro em caixas eletrônicos? Qual cuidado devo ter? 
+ 4. O celular pode ser um meio de transmissão do coronavírus? O que devo fazer?
+ 5. Nos carros de aplicativos e táxis é melhor ar condicionado ou janela aberta?
+ 6. O que devo fazer ao chegar em casa da rua?
+ 7. O que devo fazer ao utilizar o transporte público? 
+ 8. Eu posso ir à academia? 
+ 9. Posso fazer caminhada na rua?
+ 10. Posso frequentar celebrações ou encontros religiosos na minha Igreja ou comunidade?
+ 11. Posso usar a piscina da minha casa?
+ 12. Voltar às opções anteriores"
+0,covid.help.8.behavior.1.,um,0,0,"Não. Mesmo se flexibilizar o isolamento, a pandemia ainda não acabou. As pessoas devem sair de casa só se for muito necessário e evitar visitar parentes e amigos. Se ninguém na família se visita, todos ficam protegidos."
+0,covid.help.8.behavior.2.,dois,0,0,"Se tiver que sair de casa, é melhor que saia apenas uma pessoa e que seja alguém fora do grupo de risco. Se for de elevador, é bom pegar sozinho, não encostar nas paredes e usar lenço descartável para apertar o botão, ou passar álcool em gel depois de tocar no botão."
+0,covid.help.8.behavior.3.,três,0,0,"Se precisar sair de casa, é melhor que apenas uma pessoa saia e que seja alguém fora do grupo de risco. Passar álcool em gel nas mãos depois de usar o caixa. Antes de guardar o cartão do banco, passar álcool em gel nas partes de plástico do cartão (nunca no chip). "
+0,covid.help.8.behavior.4.,quatro,0,0,Sim. Precisa limpar sempre o celular. Limpar a capa e remover para limpar o aparelho. Conferir para a marca de seu celular se pode usar álcool em gel ou água da torneira com um pouco de água sanitária. 8 colheres de chá (40 ml) de água sanitária em 1 litro de água da torneira. Tirar o aparelho da tomada antes de limpar.
+0,covid.help.8.behavior.5.,cinco,0,0,"Se precisar sair de casa, é melhor ir no próprio carro ou sozinho de carro de aplicativo ou táxi para não ter contato com outras pessoas. No carro de aplicativo ou táxi, pedir para abrir as janelas. Não encostar no rosto. Lavar as mãos depois de sair do carro. Quando chegar em casa, tomar banho e pôr a roupa para lavar."
+0,covid.help.8.behavior.6.,seis,0,0,"Sempre que chegar em casa da rua:
+• antes de entrar, tirar os sapatos. Se tiver jeito, deixar um par de sapatos só para sair de casa;
+• se tiver torneira na entrada ou no quintal, lavar bem as mãos com água e sabão, por 20 segundos;
+• se não tiver jeito de lavar antes de entrar em casa, não tocar nada até lavar;
+• antes de trocar de roupa e lavar as mãos, não chegar perto de ninguém em casa;
+• se tiver jeito, tomar banho assim que chegar em casa, trocar de roupa e pôr para lavar;
+• limpar celular, chave e cartão bancário com álcool 70%;
+• deixar mochilas e bolsas fora da casa ou perto da porta de entrada."
+0,covid.help.8.behavior.7.,sete,0,0,"Usar máscara. Se tiver jeito, abrir ou procurar ficar perto de janelas abertas. Não tocar nos olhos, nariz ou qualquer parte do rosto até lavar as mãos com água e sabão ou álcool em gel. Evitar pegar transporte público se estiver muito cheio. Sentar longe das outras pessoas."
+0,covid.help.8.behavior.8.,oito,0,0,"Não. Mesmo se flexibilizar o isolamento, a pandemia ainda não acabou. Precisa evitar contato com outras pessoas e com objetos contaminados. Pode se contaminar mesmo ficando a 2 metros de distância das outras pessoas ou malhando quando não tiver mais ninguém. Gotículas de suor, saliva ou tosse de outras pessoas podem ter caído nos equipamentos e contaminar."
+0,covid.help.8.behavior.9.,nove,0,0,"Não. Mesmo se flexibilizar o isolamento, a pandemia ainda não acabou. As pessoas  devem ficar em casa. Só devem sair em último caso. Se não fizer caminhada, tem menos chance de contato com pessoas e de se contaminar."
+0,covid.help.8.behavior.10.,dez,0,0,"Não. Até o isolamento acabar, as pessoas com ou sem a doença devem ficar em casa. Só devem sair em último caso. Se não participar de celebrações, tem menos chance de contato com pessoas e de se contaminar."
+0,covid.help.8.behavior.11.,onze,0,0,"Se a piscina estiver no prédio, no clube ou na academia, não. Pode se contaminar mesmo mantendo-se longe de outras pessoas ou nadando quando não tiver mais ninguém. Se tiver piscina em casa, pode ser usada somente pelas pessoas da casa, se ninguém estiver doente."
+0,covid.help.8.behavior.12.previous,doze,0,0,NOT TEXT
+0,covid.help.10.mask,10 . Uso de Máscara,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Devo usar máscara ao sair na rua? 
+ 2. Qual máscara devo usar para me proteger contra o coronavírus?
+ 3. Posso usar a mesma máscara cirúrgica por quanto tempo?
+ 4. Posso lavar e reutilizar uma máscara cirúrgica?
+ 5. Como devo colocar e retirar a máscara cirúrgica?
+ 6. Voltar às opções anteriores"
+0,covid.help.10.mask.1.,um,0,0,"Sim. Todos devem usar máscara ao sair na rua. A Organização Mundial de Saúde recomenda a máscara cirúrgica para:
+•	profissionais da saúde; 
+•	pessoas com sintomas respiratórios; 
+•	pessoas que cuidam de casos suspeitos ou confirmados de COVID-19 fora das unidades de saúde; 
+•	pessoas com 60 anos ou mais; 
+•	pessoas com doença do coração (como insuficiência cardíaca, ou que já tiveram infarto), diabetes, doença de pulmão, câncer, doença cerebrovascular ou que tomam remédios que afetam a imunidade. 
+Para as outras pessoas, recomenda máscara de tecido. Usar máscara não quer dizer que pode deixar de lavar as mãos com água e sabão ou álcool em gel. Usar máscara não quer dizer que não precisa ficar afastado das outras pessoas."
+0,covid.help.10.mask.2.,dois,0,0,"A Organização Mundial de Saúde recomenda a máscara cirúrgica para:
+•	profissionais da saúde;
+•	pessoas com sintomas respiratórios;
+•	pessoas que cuidam de casos suspeitos ou confirmados de COVID-19 fora das unidades de saúde;
+•	pessoas com 60 anos ou mais;
+•	pessoas com doença do coração (como insuficiência cardíaca, ou que já tiveram infarto), diabetes, doença de pulmão, câncer, doença cerebrovascular ou que tomam remédios que afetam a imunidade. 
+Para as outras pessoas, recomenda máscara de tecido. Usar máscara não quer dizer que pode deixar de lavar as mãos com água e sabão ou álcool em gel. Usar máscara não quer dizer que não precisa  ficar afastado das outras pessoas."
+0,covid.help.10.mask.3.,três,0,0,"No máximo 2 horas. Depois de 2 horas, fica úmida e não protege mais. Na hora de tirar a máscara, não tocar na parte da frente, que cobre o rosto, tirar pela alça. Jogar no lixo. Não dá para lavar e usar de novo. Depois de jogar no lixo, lavar as mãos com água e sabão ou álcool em gel.  "
+0,covid.help.10.mask.4.,quatro,0,0,Não. Não pode lavar nem aproveitar de novo.
+0,covid.help.10.mask.5.,cinco,0,0,"Máscara cirúrgica é só para quem tem sintoma de gripe. Antes de pôr a máscara, lavar as mãos com água e sabão ou álcool em gel. Depois de pôr, não tocar na parte da frente. Pode usar a mesma máscara no máximo 2 horas. Tirar a máscara pela alça. Não pode ser usada de novo. Precisa jogar numa lixeira tampada. Depois de jogar fora, lavar as mãos com água e sabão ou álcool em gel."
+,covid.help.10.mask.6.,seis,0,0,"A Organização Mundial de Saúde recomenda máscara com três camadas: a mais interna feita de algodão ou misturas de algodão; a mais externa feita de polipropileno, poliéster ou misturas desses materiais; e a camada do meio feita de material sintético não tecido, como polipropileno, ou uma camada de algodão."
+,covid.help.10.mask.7.,sete,0,0,"A máscara de tecido só pode ser usada por uma pessoa e no máximo por 2 horas. Depois fica úmida e não protege mais. A máscara deve cobrir o nariz e a boca. Para lavar, usar sabão ou detergente e água morna. Se usar água à temperatura ambiente, ferver por 1 minuto depois de lavar ou deixar de molho em água com água sanitária. Enxaguar bem."
+0,covid.help.10.mask.8.previous,oito,0,0,NOT TEXT
+0,covid.help.11.pregnancy,11 . Gravidez e Coronavírus,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Quais são os efeitos da COVID-19 em uma mulher que está gravida? 
+ 2. Se a grávida tem COVID-19, a doença pode afetar o bebê?
+ 3. Uma mulher com a COVID-19 pode continuar amamentando?
+ 4. Se eu estiver com sintomas que parecem COVID-19 o meu bebê precisa fazer o teste?
+ 5. O que eu preciso fazer para evitar que o meu bebê seja infectado com o novo coronavírus? 
+ 6. Posso ter parto normal durante a pandemia?
+ 7. Se estiver gripada, devo realizar minha consulta de pré-natal normalmente?
+ 8. Se alguém da minha casa estiver com suspeita de COVID-19, eu posso ir à consulta de pré-natal?
+ 9. Estou grávida, devo iniciar meu pré-natal agora mesmo com a pandemia da COVID-19?
+ 10. Voltar às opções anteriores"
+0,covid.help.10.pregnancy.1.,,0,0,"As mulheres grávidas não têm risco adicional. As grávidas que têm diabetes, problema no coração ou no pulmão, ou pressão alta têm mais risco e precisam de mais cuidados."
+0,covid.help.10.pregnancy.2.,dois,0,0,A mulher grávida pode passar o vírus para o bebê. Não se sabe ainda se isso é comum e como afeta o bebê.
+0,covid.help.10.pregnancy.3.,tres,0,0,"Sim. Para não contaminar o bebê, precisa lavar as mãos com água e sabão ou álcool em gel antes e depois de dar de mamar. Precisa usar máscara cobrindo nariz e boca."
+0,covid.help.10.pregnancy.4.,quatro,0,0,"Se o bebê está bem, não precisa. Tem de ficar de olho e cuidar para que não pegue COVID. Precisa lavar bem as mãos antes e depois de pegar o bebê, usar máscara cobrindo nariz e boca quando amamentar, afastar pelo menos 2 metros o berço da cama da mãe."
+0,covid.help.10.pregnancy.5.,cinco,0,0,Não receber visitas. Lavar bem as mãos antes e depois de pegar o bebê. Todos na casa devem se cuidar para não pegar a doença.
+0,covid.help.10.pregnancy.6.,seis,0,0,"Sim. O tipo de parto não muda com a pandemia. O parto normal é seguro, e a cesariana pode ser feita nos casos indicados pelo médico."
+0,covid.help.10.pregnancy.7.,sete,0,0,"Se a mulher grávida está gripada, é melhor ela ficar em casa. Mas deve continuar o pré-natal. Deve reagendar a consulta no posto de saúde para uma data depois de 14 dias do dia em que ficou gripada."
+0,covid.help.10.pregnancy.8.,oito,0,0,"Se alguém na casa está com suspeita de COVID, a grávida deve remarcar a consulta no posto de saúde para uma data depois de 14 dias do dia em que a pessoa ficou gripada."
+0,covid.help.10.pregnancy.9.,nove,0,0,Deve marcar sim sua consulta no posto de saúde sempre desde que nem a grávida nem mais ninguém na casa esteja gripado.
+0,covid.help.10.pregnancy.10.previous,dez,0,0,NOT TEXT
+0,covid.help.12.pets,Animais Domésticos,0,0,"O que você quer saber? Digite ou fale o número ao lado da pergunta.
+ 
+
+ 1. Cães e gatos podem se infectar pelo novo coronavírus?
+ 2. Posso beijar e abraçar meu cachorro? 
+ 3. Quais devem ser os cuidados com meus animais se eu estiver com COVID-19?
+ 4. Devo vacinar meu cachorro contra o coronavírus?
+ 5. Devo colocar uma máscara no meu cão se ele estiver doente?
+ 6. Devo abandonar ou sacrificar meu animal de estimação como medida de segurança?
+ 7. Sou um(a) passeador(a) e/ou cuidador(a) de animais. Devo abandonar meu emprego?
+ 8. Como posso ajudar os animais abandonados na minha vizinhança sem arriscar minha saúde?
+ 9. Voltar às opções anteriores"
+0,covid.help.11.pets.1.,um,0,0,"A Organização Mundial da Saúde (OMS) informou que até o momento não há prova de que animais fiquem doentes pelo novo coronavírus ou que o vírus se aloje neles. Ainda estão estudando. É importante manter a higiene, lavar as mãos antes e depois do tocar no animal ou objetos dele. Evitar sair de casa com o animal. As patas e o corpo podem contaminar com partículas do vírus fora de casa. Se sair, tem de lavar com água e sabão ao voltar, mas nunca use álcool ou água sanitária no seu animal."
+0,covid.help.11.pets.2.,dois,0,0,"Não é aconselhado. Tem bactérias na boca do cachorro e do gato que podem causar doenças. Pode fazer carinho, mas sempre lavar as mãos antes e depois de acariciar, dar comida ou levar para passear."
+0,covid.help.11.pets.3.,três,0,0,"O Centro de Controle de Doenças (CDC) recomenda:
+•    Limitar o contato com animais e com outras pessoas;
+•    Se possível, pedir que outra pessoa cuide do animal nesse período;
+•    Evitar abraçar, beijar, fazer carinho e ser lambido;
+•    Não compartilhar comida com o animal;
+•    Se for tocar no animal, lavar as mãos com água e sabão antes e depois;
+•    Usar máscara."
+0,covid.help.11.pets.4.,quatro,0,0,"A vacina para animais contra o coronavírus evita infecções digestivas. Mas essa vacina não funciona contra o novo coronavírus. Mesmo assim, precisa vacinar regularmente os animais para protegê-los de outras doenças. "
+0,covid.help.11.pets.5.,cinco,0,0,"Não. Não tem prova de que cães ou gatos peguem COVID ou passem a doença para os seres humanos. Com máscara os animais ficam estressados, têm dificuldade para respirar, sentem calor extremo e podem desmaiar. "
+0,covid.help.11.pets.6.,seis,0,0,"De jeito nenhum! Até o momento, não tem prova de que cães ou gatos peguem COVID ou passem a doença para os seres humanos. "
+0,covid.help.11.pets.7.,sete,0,0,Siga as recomendações do Conselho Veterinário de seu estado e da prefeitura da sua cidade. Pode substituir o passeio por atividades para que os animais façam exercício dentro de casa. É importante lavar as mãos antes e depois de tocar nos animais.
+0,covid.help.11.pets.8.,oito,0,0,"Pode alimentar animais abandonados, tomando cuidado para proteger sua saúde. Quem tiver sintomas respiratórios, não deve sair de casa. Deve pedir que alguém faça até melhorar sua saúde."
+0,covid.help.11.pets.9.previous,nove,0,0,NOT TEXT
+0,covid.more_info,quero saber mais informações,0,0,"Ótimo. O que você quer saber sobre o coronavírus? Caso não saiba ao certo, escreva ou fale ""ajuda"" para que possa listar as perguntas mais frequentes."
+0,covid.multiple_groups - no,não sinto nenhum deles,0,0,Certo #personal_info_context.name. Você não tem sintomas de gripe e não está em nenhum grupo de risco.
+0,covid.multiple_groups - yes,tenho,0,0,"Você tem algum problema de coração, como angina, infarto, insuficiência cardíaca; 
+ problema de pulmão, como asma, bronquite, enfisema, fibrose cística;  
+ problema de rim;
+ está fazendo diálise;
+ fez transplante;
+ está fazendo tratamento de câncer;
+ usa corticoide (como prednisona) ou algum remédio que afeta a imunidade); 
+ tem Lupus, artrite reumatoide ou outra doença reumática;
+ tem Síndrome de Down;
+ HIV; 
+ Diabetes;
+ Você está grávida?
+ Você teve filho recentemente (há menos de 4 meses)?
+ Você tem criança menor de 1 ano?"
+0,covid.multiple_groups2 - no,discordo,0,0,Certo #personal_info_context.name. Você não tem sintomas de gripe e não está em nenhum grupo de risco.
+0,covid.multiple_groups2 - yes,tenho,0,0,Certo #personal_info_context.name. Você precisa procurar um médico ou ligar 136.
+0,covid.question.general.1.coronavirus,"quero saber mais sobre o coronavírus
+O que é coronavírus?",0,0,Coronavírus é uma família de vírus que causa doença no ser humano. A doença passa de um animal para outro e do animal para o ser humano.
+0,covid.question.general.2.name_coronavirus,me explique o nome coronavírus,0,0,"Porque o vírus tem a forma parecida com uma coroa. Os cientistas usam a palavra corona, que em latim significa coroa."
+0,covid.question.general.3.sars_cov_2,O que é a SARS-CoV- 2?,0,0,SARS-CoV-2 é o nome do coronavírus que causa a COVID-19.
+0,covid.question.general.4.covid19,o que é covid- 19 ?,0,0,"COVID-19 é o nome da doença causada pelo novo coronavírus, que é chamado de SARS-CoV-2. "
+0,covid.question.general.5.pandemic,o que é uma pandemia?,0,0,"Pandemia é quando uma doença passa a infectar um grande número de pessoas em muitos países ao mesmo tempo. Quando se declara pandemia, quer dizer que alguma doença está se espalhando sem controle.
+Quando aparecem vírus novos, a chance de se ter uma pandemia é muito grande porque o corpo das pessoas não têm defesas contra o vírus e não existe remédio ou vacina."
+0,covid.question.transmission.1.how,como o vírus é transmitido?,0,0,"A doença é transmitida por gotículas que saem da boca ou nariz de uma pessoa infectada quando ela fala, tosse ou espirra. Essas gotículas chegam a até 1 metro de distância, mas podem chegar mais longe quando a pessoa espirra ou tosse. 
+A doença se espalha principalmente quando uma pessoa toca com a mão em algum lugar que ficou contaminado por uma pessoa doente.
+O importante é lavar sempre as mãos depois de tocar em qualquer coisa e não tocar no rosto.  "
+0,covid.question.transmission.2.how_long,eu posso transmitir a doença depois de contaminado?,0,0,"Pelo que se sabe, a pessoa doente transmite a doença enquanto tem febre, tosse, coriza, nariz entupido ou escorrendo e dor de garganta. Mas ela também pode transmitir antes de ter sintomas e até 14 dias depois que os sintomas começaram. Por isso, é muito importante manter o distanciamento social."
+0,covid.question.transmission.3.rate,quantas pessoas podem ser contaminadas por um doente?,0,0,"Se uma pessoa não evita o contato com outras, ela começa uma cadeia de transmissão  que no final de 30 dias pode levar a centenas de pessoas infectadas. Mas se a pessoa evita pelo menos a metade dos contatos com outras pessoas, no final, cerca de 15 pessoas vão ser infectadas. Se ela evita ainda mais o contato com outras pessoas, no final, menos de 3 pessoas vão ser infectadas. "
+0,covid.question.transmission.4.life_time,o coronavírus vive por quanto tempo em casa ?,0,0,"Isso ainda está sendo estudado. Os cientistas descobriram que o vírus fica vivo até 3 horas no ar, até 24 horas no papelão e 3 dias no plástico e no metal."
+0,covid.question.symptoms.1.signs,Quais são os principais sinais e sintomas da Covid?,0,0,"O mais frequente é febre, tosse seca ou com pouca secreção, e sensação de falta de ar. Algumas pessoas podem ter nariz entupido ou escorrendo, dor de garganta, cabeça ou no corpo. Outras pessoas têm enjoo, vômito, diarreia, e não sentem o cheiro ou gosto dos alimentos. Quando é grave, piora a falta de ar e a pessoa pode sentir que vai desmaiar."
+0,covid.question.symptoms.2.how_serious,A Covid é grave?,0,0,"Para a maioria das pessoas não, mas para algumas pessoas a doença pode ser grave e elas podem até morrer. Em estudos na China, a doença foi leve em 81% dos casos, grave em 14% deles e gravíssima em 5%. Em geral, cerca de 15% dos pacientes precisam ficar internados no hospital e 5 % precisam de UTI."
+0,covid.question.symptoms.3.mortality_rate,quantas pessoas morrem por causa da doença?,0,0,"Varia muito de país para país e de região para região num mesmo país. Depende das estratégias para combater o vírus e do sistema de saúde em cada lugar. 
+Na China, de cada 1000 pessoas que pegam a doença, 23 morrem. Na Coreia do Sul, de cada 1000 pessoas que pegam a doença, 7 morrem. Na Itália, de cada 1000 pessoas que pegam a doença, 100 morrem. No Brasil, em agosto de 2020, de cada 1000 pessoas que pegaram a doença, 32 morreram."
+0,covid.question.symptoms.4.concern,Por que o mundo todo está preocupado com o vírus?,0,0,"Como é um vírus muito contagioso, pode contaminar a maior parte da população se as pessoas não seguirem as orientações. Como cerca de 15% dos doentes precisam ficar internados no hospital, se grande parte das pessoas for infectada, podem faltar leitos para internar as pessoas doentes. Isso pode causar ainda mais mortes."
+0,covid.question.symptoms.5.risk_group,grupos de risco?,0,0,"Os principais grupos de risco são pessoas com:
+•    mais de 60 anos;
+•    pressão alta;
+•    doenças do coração ou que já tiveram infarto;
+•    diabetes;
+•    doença de pulmão;
+•    problema de rim;
+•    câncer;
+•    que fizeram transplante ou tomam medicamentos que afetam a imunidade; 
+•    Síndrome de Down;
+•    grávidas."
+0,covid.question.orientation.1.leave_home,posso sair de casa gripado?,0,0,"O paciente com sintomas respiratórios só deve sair de casa se precisar ir no médico e sempre com máscara. Em qualquer outra situação, uma pessoa que more junto e que não seja grupo de risco deve fazer tudo que precisa ser feito fora de casa, como comprar comida e remédio."
+0,covid.question.orientation.2.health_assistance,"eu estou gripado, devo buscar o posto de saúde ?",0,0,"A maior parte das pessoas com sintomas de gripe tem efeitos leves.  Nesses casos, não precisa procurar o serviço de urgência. Pode procurar atendimento em unidade básica de saúde, outro serviço ambulatorial ou serviço de telemedicina, se disponível na sua região. Mas, se a pessoa sente dificuldade de respirar, tem respiração ofegante, sente que vai desmaiar ou tem febre por mais de 3 dias seguidos ou febre que passa e volta depois de 2 dias, precisa procurar o serviço de urgência."
+0,covid.question.orientation.3.risk_group,eu sou grupo de risco do corona ?,0,0,"Os principais grupos de risco são pessoas são pessoas com:
+•	mais de 60 anos;
+•	pressão alta;
+•	doenças do coração ou que já tiveram infarto;
+•	diabetes;
+•	doença de pulmão;
+•	problema de rim;
+•	câncer;
+•	que fizeram transplante ou tomam medicamentos  que afetam a imunidade; 
+•	Síndrome de Down;
+•	grávidas. "
+0,covid.question.orientation.4.selfcare,como me tratar com coronavírus?,0,0,"A maioria das pessoas tem sintomas leves e somente precisa repousar, tomar remédio para dor ou febre, beber bastante água e se alimentar de forma saudável.  Não tem, até agora, remédio para COVID. Você pode procurar ajuda no posto de saúde ou em qualquer serviço médico.  Se tiver algum sintoma grave, como falta de ar, sensação de desmaio ou febre que fica mais de 3 dias ou que some e aparece de novo, precisa ir no pronto socorro. 
+Nos primeiros 14 dias da doença, o doente deve tentar:
+•	ficar sozinho num cômodo, sem outras pessoas, com as janelas abertas;
+•	usar um banheiro somente para ele;
+•	ter toalha, talher, prato e qualquer outro objeto somente para ele usar;
+•	não ficar em cômodos da casa com as outras pessoas;
+•	se tiver que sair do quarto, sair de máscara e lavar as mãos ou passar álcool em gel antes de tocar em algum objeto;
+•	ficar pelo menos a 2 metros de distância das outras pessoas."
+0,covid.question.orientation.5.gravity,como saber se estou em estado grave?,0,0,"Se você sente falta de ar quando anda, toma banho, arruma a casa, ou mesmo fica parado, se sente que vai desmaiar ou se tem febre por mais de 3 dias seguidos ou febre que passa e volta depois de 2 dias,  precisa procurar o serviço de urgência o mais rápido possível."
+0,covid.question.diagnostic.1.covid,Como é realizado o diagnóstico de COVID- 19 ?,0,0,"No Brasil, atualmente há 2 maneiras:
+1. Quando dá positivo o teste molecular (RT-PCR) ou sorológico feito no laboratório. 
+2. Quando não é possível fazer o teste e o médico verifica que a pessoa teve contato próximo ou domiciliar com alguma pessoa infectada que testou positivo e tem febre OU pelo menos um sinal de problema respiratório, em até 14 dias depois de ter tido contato com a pessoa infectada."
+0,covid.question.diagnostic.2.tests,Quais os testes laboratoriais para COVID-19 disponíveis no Brasil ?,0,0,"Tem 2 tipos de teste: 
+•   teste molecular, conhecido como RT-PCR, que é feito com uma espécie de cotonete e detecta se tem infecção ativa pelo vírus;
+•  teste sorológico, que é feito com uma amostra de sangue e detecta se o corpo tem imunidade ao vírus."
+0,covid.question.diagnostic.3.sample,Quais as amostras do paciente são coletadas para realização dos testes de COVID-19?,0,0,"Para o teste que detecta se a pessoa está com o vírus, se usa uma amostra de secreção coletada com um cotonete pelo nariz ou pela boca. Para o teste que detecta se a pessoa tem a imunidade ao vírus, se usa uma amostra de sangue."
+0,covid.question.diagnostic.4.when_tests,Após quanto tempo do início dos sintomas os testes sorológicos podem ser realizados?,0,0,8 dias depois de começar a ter sintomas.
+0,covid.question.diagnostic.5.fast_test,Os testes rápidos podem ser utilizados para confirmar ou descartar o diagnóstico de COVID- 19 ?,0,0,"Não. O teste rápido NÃO funciona para confirmar ou descartar a COVID-19, porque pode dar resultado falso. O teste para confirmar a doença deve ser o RT-PCR ou o teste sorológico.
+"
+0,covid.question.diagnostic.6.applicability_fasttests,Qual a aplicabilidade dos testes rápidos?,0,0,O teste rápido é útil para as autoridades saberem quantas pessoas já tiveram COVID e se precisa manter ou mudar as medidas de isolamento ou distanciamento social.
+0,covid.question.diagnostic.7.IgG,A detecção de IgG em um teste sorológico indica que o paciente em questão está imune contra a COVID- 19 ?,0,0,Não é possível dizer com certeza que a pessoa não está mais infectada ou que tem imunidade contra o vírus para sempre.
+0,covid.question.treatment.1.cure,o coronavírus tem cura?,0,0,"Até o momento não. Não está comprovado que os tratamentos que aparecem na mídia são eficazes. Eles podem causar efeitos colaterais; por isso, devem ser evitados. Para tratar o coronavírus, deve-se ficar em casa, fazer repouso, tomar remédio para a febre, se hidratar, comer de forma saudável, e procurar atendimento médico em caso de sintoma grave."
+0,covid.question.treatment.2.interferon,posso utilizar o interferon para o tratamento do covid?,0,0,"Até o momento, não tem tratamento eficaz contra o coronavírus. O interferon ainda está sendo testado e não deve ser usado para tratar as pessoas infectadas. Além disso, possui muitos efeitos perigosos para a saúde. Precisamos aguardar novos estudos para ver se esse remédio pode ser usado para tratar a COVID."
+0,covid.question.treatment.3.antiretrovirals,Os antirretrovirais são tratamentos eficazes contra o coronavírus?,0,0,"Até o presente momento, não existe tratamento eficaz contra o coronavírus. Os antirretrovirais, usados no tratamento de pessoas com HIV, ainda estão sendo testados e não devem ser usados para tratar as pessoas infectadas. Além disso, têm muitos efeitos perigosos para a saúde. Precisamos aguardar novos estudos para ver se os antirretrovirais podem ser usados para tratar a COVID."
+0,covid.question.treatment.4.chloroquine,A cloroquina é um tratamento eficaz contra o coronavírus?,0,0,"Até o momento, não tem tratamento eficaz contra o coronavírus. Testes com cloroquina e hidroxicloroquina não mostraram efeito positivo em casos leves ou graves da doença. Além disso, têm muitos efeitos perigosos para a saúde, como arritmias do coração e alteração visual. "
+0,covid.question.treatment.5.vitaminD,vitamina D trata o covid?,0,0,"Até o momento, não tem tratamento eficaz contra o coronavírus. Não tem provas científicas suficientes de que a vitamina D seja eficaz. "
+0,covid.question.treatment.6.dexamethasone,A dexametasona é a cura para o covid?,0,0,Um estudo da Universidade de Oxford mostrou que a dexametasona ajudou a reduzir o número de mortes em pacientes com COVID que precisaram de ventilação mecânica (1 pessoa salva a cada 8 pacientes tratados) ou estavam com  oxigênio (1 pessoas salva a cada 25 pacientes tratados). Os pacientes com COVID que não precisaram de oxigênio não tiveram benefício com a dexametasona. Este remédio só deve ser usado se o médico prescrever e somente pelos pacientes que possam se beneficiar dele.
+0,covid.question.treatment.7.ivermectin,A ivermectina é a cura para o coronavírus?,0,0,Não tem prova científica de que ivermectina é eficaz. Alguns estudos no laboratório mostraram que a ivermectiva é eficaz contra o vírus mas em uma quantidade que seria muito tóxica para as pessoas. Ivermectina não deve ser usada para tratar as pessoas infectadas.
+0,covid.question.treatment.8.garlic,o alho é um tratamento ao coronavírus?,0,0,"O alho tem propriedades contra algumas bactérias, mas não tem prova de que é eficaz contra o coronavírus."
+0,covid.question.treatment.9.ibuprofen,ibuprofeno é um tratamento eficaz contra o coronavírus?,0,0,"O ibuprofeno é um remédio anti-inflamatório que alivia febre e dores. Foi falado que as pessoas com COVID não deveriam usar esse medicamento porque podia agravar a doença, mas ainda não tem pesquisas que comprovem se ele é prejudicial. O Ministério da Saúde recomenda usar dipirona e paracetamol. Se tiver de usar anti-inflamatório, pode usar ibuprofeno, mas na dose mínima."
+0,covid.question.treatment.10.anti-inflammatory,anti-inflamatórios são um tratamento eficaz contra o coronavírus?,0,0,"Foi falado que as pessoas com COVID não deveriam usar esse medicamento porque podia agravar a doença, mas ainda não tem pesquisas que comprovem se ele é prejudicial. O Ministério da Saúde recomenda usar dipirona e paracetamol. Se tiver de usar anti-inflamatório, pode usar numa dose mínima."
+0,covid.question.treatment.11.hypertension,devo trocar minha medicação de hipertensão?,0,0,Parar de tomar os remédios para a pressão pode ser muito grave para a saúde. Não está comprovado que os remédios para a pressão afetem o tratamento da pessoa com  COVID. Não se deve parar de tomar remédio por conta própria. Deve-se falar sempre com o médico.
+0,covid.question.treatment.12.vaccine,existe uma vacina para o corona ?,0,0,"Por enquanto não tem vacina comprovada. Tem laboratórios no mundo tentando descobrir a vacina, mas isso demora. Mesmo quando a vacina estiver pronta, vai demorar para que possa ser aplicada."
+0,covid.question.treatment.13.vaccine_flu,a vacina da gripe é um tratamento eficaz contra o coronavírus?,0,0,Não. A vacina da gripe não combate o coronavírus. Mas combate o vírus que causa a gripe e deve ser aplicada nos grupos recomendados pelo Ministério da Saúde.
+0,covid.question.housecare.1.infected_person,como devo proceder se tiver alguém com corona em casa?,0,0,"Durante 14 dias, desde que começar a passar mal, a pessoa com sintomas de gripe deve:
+•	se tiver jeito, ficar sozinha num cômodo, sem outras pessoas, com as janelas abertas;
+•	se tiver jeito, usar um banheiro somente para ela;
+•	ter toalha, talher, prato e qualquer outro objeto somente para ela usar;
+•	não ficar em cômodos da casa com as outras pessoas;
+•	se tiver que sair do quarto, sair de máscara e lavar as mãos ou passar álcool em gel antes de tocar em algum objeto;
+•	ficar pelo menos a 2 metros de distância das outras pessoas."
+0,covid.question.housecare.2.cleanness,como limpar a casa quando tiver alguém com coronavírus em casa?,0,0,"Precisa ter cuidado para que as outras pessoas não se contagiem. Precisa limpar o cômodo onde fica a pessoa com sintomas de gripe e também o restante da casa. A pessoa doente tem que limpar o cômodo onde fica. Se não tiver jeito, quem for limpar o cômodo do doente tem que usar máscara, luva, óculos e avental. Antes de pôr a luva, precisa lavar as mãos com água e sabão. Onde acumula mais sujeira e dá para ver poeira precisa lavar primeiro com água e sabão e depois com água sanitária diluída em água da torneira ou com álcool em gel. Pode ser um copo tipo de requeijão (200ml) de água sanitária em 5 litros de água da torneira, ou 8 colheres de chá (40 ml) de água sanitária em 1 litro de água da torneira. Se só tem um banheiro em casa, a pessoa doente deve lavar as mãos antes de tocar em qualquer coisa dentro e alguém precisa limpar o banheiro depois que ela usar. Depois de lavar as mãos, usar um papel para fechar a torneira. Se tocou na torneira antes de lavar as mãos, precisa limpar a torneira depois de lavar. Pano, esponja e qualquer outra coisa precisa lavar com água e sabão."
+0,covid.question.housecare.3.cooking,Um infectado com coronavírus pode cozinhar em casa?,0,0,Não pode. Se cozinhar vai acabar encostando e contaminando a cozinha e tem mais chance de contaminar os outros. A pessoa doente precisa comer sozinha no quarto dela porque ela vai tirar a máscara para comer. Não pode usar o mesmo prato e talher dos outros.
+0,covid.question.housecare.4.garbage,O que fazer com o lixo gerado por uma pessoa com coronavírus?,0,0,"Precisa ter uma lixeira no cômodo onde fica a pessoa doente. Somente para ela. O lixo deve ficar num saco plástico. Precisa pôr luva e fechar bem o saco plástico para pôr na rua. Depois de mexer com o lixo, precisa lavar bem as mãos com água e sabão ou álcool em gel."
+0,covid.question.housecare.5.laundry,Como devemos lavar a roupa de uma pessoa com coronavírus?,0,0,"Precisa ter um cesto de roupa só para a pessoa doente e usar luva quando for tocar nele. Depois de mexer com a roupa, lavar as mãos com água e sabão ou álcool em gel. Não precisa usar água sanitária para lavar a roupa."
+0,covid.question.hygiene.1.hands_washing,Como lavar as mãos?,0,0,"Tirar anéis, aliança, pulseiras ou relógios. Lavar as mãos com água e sabão esfregando pelo menos 20 segundos. Lavar a parte de cima da mão, a palma, a parte entre os dedos, unhas, e punhos. Se não tem como lavar as mãos com água e sabão e as mãos não estão muito sujas, pode usar álcool em gel de 70%, esfregando as mãos. "
+0,covid.question.hygiene.2.soap,Posso lavar as mãos com sabão em barra ?,0,0,Pode sim.
+0,covid.question.hygiene.3.alcohol,Posso utilizar álcool em gel ao invés de lavar as mãos?,0,0,"Se as mãos não estão muito sujas, pode. O álcool em gel 70% mata o vírus. Lembre de esfregar o álcool na mão toda, na parte de cima, na palma, na parte entre os dedos, nas unhas e nos punhos."
+0,covid.question.hygiene.4.alcohol_type,Álcool comum substitui o álcool em gel?,0,0,"Não. Para matar o vírus, tem que passar o álcool líquido ou em gel 70%. Álcool de mais de 70% evapora rápido e não dá tempo de matar o vírus. Álcool de menos de 70% tem mais água e não mata o vírus. Não passe álcool de bebida e nem do posto de gasolina."
+0,covid.question.hygiene.5.alcohol_brewing,Posso produzir meu próprio álcool em gel?,0,0,Não. Não se recomenda fazer álcool em gel em casa. Pode ter risco de queimadura grave e não dá para saber se fica 70% mesmo para que mate o vírus.
+0,covid.question.hygiene.6.sanitary_water,Posso limpar a casa com água sanitária?,0,0,"Sim. Pode usar água sanitária diluída em água. Pode ser um copo tipo de requeijão (200ml) de água sanitária em 5 litros de água da torneira. Ou 8 colheres de chá (40 ml) de água sanitária em 1 litro de água da torneira. A água sanitária diluída em água só pode usar para limpar objetos, parede, piso e vidros. Nunca para lavar o corpo."
+0,covid.question.behavior.1.visits,Se eu quiser visitar meus avós eu posso?,0,0,"Não. Mesmo se flexibilizar o isolamento, a pandemia ainda não acabou. As pessoas devem sair de casa só se for muito necessário e evitar visitar parentes e amigos. Se ninguém na família se visita, todos ficam protegidos."
+0,covid.question.behavior.2.elevator,Devo evitar usar o elevador ?,0,0,"Se tiver que sair de casa, é melhor que saia apenas uma pessoa e que seja alguém fora do grupo de risco. Se for de elevador, é bom pegar sozinho, não encostar nas paredes e usar lenço descartável para apertar o botão, ou passar álcool em gel depois de tocar no botão."
+0,covid.question.behavior.3.ATM,Quais as recomendações para usar o caixa eletrônico ?,0,0,"Se precisar sair de casa, é melhor que apenas uma pessoa saia e que seja alguém fora do grupo de risco. Passar álcool em gel nas mãos depois de usar o caixa. Antes de guardar o cartão do banco, passar álcool em gel nas partes de plástico do cartão (nunca no chip)."
+0,covid.question.behavior.4.cellphones,É possível pegar o coronavírus pelo celular?,0,0,Sim. Precisa limpar sempre o celular. Limpar a capa e remover para limpar o aparelho. Conferir para a marca de seu celular se pode usar álcool em gel ou água da torneira com um pouco de água sanitária. 8 colheres de chá (40 ml) de água sanitária em 1 litro de água da torneira. Tirar o aparelho da tomada antes de limpar.
+0,covid.question.behavior.5.taxis,Quais cuidados devo ter quando usar um carro de aplicativo?,0,0,"Se precisar sair de casa, é melhor ir no próprio carro ou sozinho de carro de aplicativo ou táxi para não ter contato com outras pessoas. No carro de aplicativo ou táxi, pedir para abrir as janelas. Não encostar no rosto. Lavar as mãos depois de sair do carro. Quando chegar em casa, tomar banho e pôr a roupa para lavar."
+0,covid.question.behavior.6.home_arrival,"quando chegar em casa, o que devo fazer?",0,0,"Sempre que chegar em casa da rua:
+• antes de entrar, tirar os sapatos. Se tiver jeito, deixar um par de sapatos só para sair de casa;
+• se tiver torneira na entrada ou no quintal, lavar bem as mãos com água e sabão, por 20 segundos;
+• se não tiver jeito de lavar antes de entrar em casa, não tocar nada até lavar;
+• antes de trocar de roupa e lavar as mãos, não chegar perto de ninguém em casa;
+• se tiver jeito, tomar banho assim que chegar em casa, trocar de roupa e pôr para lavar;
+• limpar celular, chave e cartão bancário com álcool 70%;
+• deixar mochilas e bolsas fora da casa ou perto da porta de entrada."
+0,covid.question.behavior.7.public_transport,Como devo utilizar o transporte público?,0,0,"Usar máscara. Se tiver jeito, abrir ou procurar ficar perto de janelas abertas. Não tocar nos olhos, nariz ou qualquer parte do rosto até lavar as mãos com água e sabão ou álcool em gel. Evitar pegar transporte público se estiver muito cheio. Sentar longe das outras pessoas."
+0,covid.question.behavior.8.gym,Posso ir para a academia ?,0,0,"Não. Mesmo se flexibilizar o isolamento, a pandemia ainda não acabou. Precisa evitar contato com outras pessoas e com objetos contaminados. Pode se contaminar mesmo ficando a 2 metros de distância das outras pessoas ou malhando quando não tiver mais ninguém. Gotículas de suor, saliva ou tosse de outras pessoas podem ter caído nos equipamentos e contaminar."
+0,covid.question.behavior.9.jogging,Posso praticar corrida na rua?,0,0,"Não. Mesmo se flexibilizar o isolamento, a pandemia ainda não acabou. As pessoas  devem ficar em casa. Só devem sair em último caso. Se não fizer caminhada, tem menos chance de contato com pessoas e de se contaminar.."
+0,covid.question.behavior.10.church,"Eu queria ir no culto, posso?",0,0,"Não. Até o isolamento acabar, as pessoas com ou sem a doença devem ficar em casa. Só devem sair em último caso. Se não participar de celebrações, tem menos chance de contato com pessoas e de se contaminar."
+0,covid.question.behavior.11.pool,"eu queria usar a piscina da minha casa , posso?",0,0,"Se a piscina estiver no prédio, no clube ou na academia, não. Pode se contaminar mesmo mantendo-se longe de outras pessoas ou nadando quando não tiver mais ninguém. Se tiver piscina em casa, pode ser usada somente pelas pessoas da casa, se ninguém estiver doente."
+0,covid.question.mask.1.mask_street,"quando for pra fora, tenho que usar máscara?",0,0,"Sim. Todos devem usar máscara ao sair na rua. A Organização Mundial de Saúde recomenda a máscara cirúrgica para:
+•	profissionais da saúde; 
+•	pessoas com sintomas respiratórios; 
+•	pessoas que cuidam de casos suspeitos ou confirmados de COVID-19 fora das unidades de saúde; 
+•	pessoas com 60 anos ou mais; 
+•	pessoas com doença do coração (como insuficiência cardíaca, ou que já tiveram infarto), diabetes, doença de pulmão, câncer, doença cerebrovascular ou que tomam remédios que afetam a imunidade. 
+Para as outras pessoas, recomenda máscara de tecido. Usar máscara não quer dizer que pode deixar de lavar as mãos com água e sabão ou álcool em gel. Usar máscara não quer dizer que não precisa ficar afastado das outras pessoas.
+"
+0,covid.question.mask.2.mask_type,que tipo de máscara é adequada contra o coronavírus?,0,0,"A Organização Mundial de Saúde recomenda a máscara cirúrgica para:
+•	profissionais da saúde;
+•	pessoas com sintomas respiratórios;
+•	pessoas que cuidam de casos suspeitos ou confirmados de COVID-19 fora das unidades de saúde;
+•	pessoas com 60 anos ou mais;
+•	pessoas com doença do coração (como insuficiência cardíaca, ou que já tiveram infarto), diabetes, doença de pulmão, câncer, doença cerebrovascular ou que tomam remédios que afetam a imunidade. 
+Para as outras pessoas, recomenda máscara de tecido. Usar máscara não quer dizer que pode deixar de lavar as mãos com água e sabão ou álcool em gel. Usar máscara não quer dizer que não precisa  ficar afastado das outras pessoas.
+"
+0,covid.question.mask.3.how_long,quanto tempo posso usar a máscara cirúrgica?,0,0,"No máximo 2 horas. Depois de 2 horas, fica úmida e não protege mais. Na hora de tirar a máscara, não tocar na parte da frente, que cobre o rosto, tirar pela alça. Jogar no lixo. Não dá para lavar e usar de novo. Depois de jogar no lixo, lavar as mãos com água e sabão ou álcool em gel.  "
+0,covid.question.mask.4.reuse,Posso reutilizar uma máscara cirúrgica?,0,0,Não. Não pode lavar nem aproveitar de novo.
+0,covid.question.mask.5.wear,como vestir a máscara?,0,0,"Máscara cirúrgica é só para quem tem sintoma de gripe. Antes de pôr a máscara, lavar as mãos com água e sabão ou álcool em gel. Depois de pôr, não tocar na parte da frente. Pode usar a mesma máscara no máximo 2 horas. Tirar a máscara pela alça. Não pode ser usada de novo. Precisa jogar numa lixeira tampada. Depois de jogar fora, lavar as mãos com água e sabão ou álcool em gel."
+0,covid.question.mask.6.wear,Que tecido posso usar para fabricar a minha máscara caseira?,0,0,"A Organização Mundial de Saúde recomenda máscara com três camadas: a mais interna feita de algodão ou misturas de algodão; a mais externa feita de polipropileno, poliéster ou misturas desses materiais; e a camada do meio feita de material sintético não tecido, como polipropileno, ou uma camada de algodão."
+0,covid.question.mask.7.wear,Quais cuidados devo ter com a máscara de tecido?,0,0,"A máscara de tecido só pode ser usada por uma pessoa e no máximo por 2 horas. Depois fica úmida e não protege mais. A máscara deve cobrir o nariz e a boca. Para lavar, usar sabão ou detergente e água morna. Se usar água à temperatura ambiente, ferver por 1 minuto depois de lavar ou deixar de molho em água com água sanitária. Enxaguar bem."
+0,covid.question.pregnancy.1.effects,o que o coronavírus pode causar numa mulher grávida?,0,0,"As mulheres grávidas não têm risco adicional. As grávidas que têm diabetes, problema no coração ou no pulmão, ou pressão alta têm mais risco e precisam de mais cuidados."
+0,covid.question.pregnancy.2.baby_health,como fica a saúde do meu bêbe ?,0,0,A mulher grávida pode passar o vírus para o bebê. Não se sabe ainda se isso é comum e como afeta o bebê.
+0,covid.question.pregnancy.3.breast_feeding,posso amamentar um bebê mesmo com corona ?,0,0,"Sim. Para não contaminar o bebê, precisa lavar as mãos com água e sabão ou álcool em gel antes e depois de dar de mamar. Precisa usar máscara cobrindo nariz e boca."
+0,covid.question.pregnancy.4.baby_test,o bebê precisa de teste caso a grávida tenha sintomas de coronavírus?,0,0,"Se o bebê está bem, não precisa. Tem de ficar de olho e cuidar para que não pegue COVID. Precisa lavar bem as mãos antes e depois de pegar o bebê, usar máscara cobrindo nariz e boca quando amamentar, afastar pelo menos 2 metros o berço da cama da mãe."
+0,covid.question.pregnancy.5.babycare,o que faço para proteger meu bebê do coronavírus?,0,0,Não receber visitas. Lavar bem as mãos antes e depois de pegar o bebê. Todos na casa devem se cuidar para não pegar a doença.
+0,covid.question.pregnancy.6.normal_birth,como funciona o parto normal durante a pandemia de coronavírus?,0,0,"Sim. O tipo de parto não muda com a pandemia. O parto normal é seguro, e a cesariana pode ser feita nos casos indicados pelo médico."
+0,covid.question.pregnancy.7.flu,posso fazer o pré- natal mesmo com sintomas de gripe?,0,0,"Se a mulher grávida está gripada, é melhor ela ficar em casa. Mas deve continuar o pré-natal. Deve reagendar a consulta no posto de saúde para uma data depois de 14 dias do dia em que ficou gripada."
+0,covid.question.pregnancy.8.prebirth,posso fazer a consulta do pré- natal mesmo com um parente infectado?,0,0,"Se alguém na casa está com suspeita de COVID, a grávida deve remarcar a consulta no posto de saúde para uma data depois de 14 dias do dia em que a pessoa ficou gripada."
+0,covid.question.pregnancy.9.start_prebirth,Posso começar meu pré- natal neste estado de pandemia?,0,0,Deve marcar sim sua consulta no posto de saúde sempre desde que nem a grávida nem mais ninguém na casa esteja gripado.
+0,covid.question.pets.1.infection,meu cachorro pode transmitir o corona ?,0,0,"A Organização Mundial da Saúde (OMS) informou que até o momento não há prova de que animais fiquem doentes pelo novo coronavírus ou que o vírus se aloje neles. Ainda estão estudando. É importante manter a higiene, lavar as mãos antes e depois do tocar no animal ou objetos dele. Evitar sair de casa com o animal. As patas e o corpo podem contaminar com partículas do vírus fora de casa. Se sair, tem de lavar com água e sabão ao voltar, mas nunca use álcool ou água sanitária no seu animal."
+0,covid.question.pets.2.hugs,Posso beijar e abraçar meu pet ?,0,0,"Não é aconselhado. Tem bactérias na boca do cachorro e do gato que podem causar doenças. Pode fazer carinho, mas sempre lavar as mãos antes e depois de acariciar, dar comida ou levar para passear."
+0,covid.question.pets.3.care,O que faço com meus pets se estiver com coronavírus?,0,0,"O Centro de Controle de Doenças (CDC) recomenda:
+•    Limitar o contato com animais e com outras pessoas;
+•    Se possível, pedir que outra pessoa cuide do animal nesse período;
+•    Evitar abraçar, beijar, fazer carinho e ser lambido;
+•    Não compartilhar comida com o animal;
+•    Se for tocar no animal, lavar as mãos com água e sabão antes e depois;
+•    Usar máscara."
+0,covid.question.pets.4.vaccine,devo vacinar meu pet contra o covid?,0,0,"A vacina para animais contra o coronavírus evita infecções digestivas. Mas essa vacina não funciona contra o novo coronavírus. Mesmo assim, precisa vacinar regularmente os animais para protegê-los de outras doenças. "
+0,covid.question.pets.5.mask,meu pet tem de usar máscara?,0,0,"Não. Não tem prova de que cães ou gatos peguem COVID ou passem a doença para os seres humanos. Com máscara os animais ficam estressados, têm dificuldade para respirar, sentem calor extremo e podem desmaiar. "
+0,covid.question.pets.6.kill,devo sacrificar meu pet ?,0,0,"De jeito nenhum! Até o momento, não tem prova de que cães ou gatos peguem COVID ou passem a doença para os seres humanos. "
+0,covid.question.pets.7.dog_walker,que cuidados devo tomar ao passear com cães e animais de estimação em geral?,0,0,Siga as recomendações do Conselho Veterinário de seu estado e da prefeitura da sua cidade. Pode substituir o passeio por atividades para que os animais façam exercício dentro de casa. É importante lavar as mãos antes e depois de tocar nos animais.
+0,covid.question.pets.8.help,como ajudar os animais de rua sem ser exposto?,0,0,"Pode alimentar animais abandonados, tomando cuidado para proteger sua saúde. Quem tiver sintomas respiratórios, não deve sair de casa. Deve pedir que alguém faça até melhorar sua saúde."
+0,covid.question.risk_group,quais os grupos de risco da covid19?,0,0,"Você está no grupo de risco se tem:
+ mais de 60 anos;
+ pressão alta;
+ algum problema de coração como angina, infarto, insuficiência cardíaca;
+ diabetes;
+ problema de pulmão como asma, bronquite, enfisema, fibrose cística;  
+ problema de rim;
+ está fazendo tratamento de câncer;
+ fez transplante ;
+ usa algum remédio que afeta a imunidade;
+ tem Síndrome de Down;
+ HIV; 
+ ou está gravida."
+0,covid.symptoms,quero saber se preciso ir ao serviço de urgência,0,0,"A gente vai ajudar você a entender as orientações do Ministério da Saúde para o seu caso. A conversa pode ser usada, guardada, compartilhada e indicar casos suspeitos de COVID-19, para ações de saúde e pesquisa científica. Você aceita?"
+0,covid.thanks,ótimo,0,0,"Estamos aqui para te ajudar sobre o COVID-19 sempre que precisar, 24 horas por dia."
+0,covid.userterms - no,não aceito,0,0,Sem problemas #personal_info_context.name. Como podemos te ajudar? Você quer saber se está com Covid? Ou Quer saber mais sobre a doença?
+0,covid.useterms - yes,aceito,0,0,"#personal_info_context.name, você pode estar gripado, e até ter pego Covid, e mesmo assim não precisar de ir no posto de saúde ou serviço de urgência. Vai depender do que você estiver sentindo. Pergunta importante: você tem falta de ar, dificuldade para respirar ou respiração ofegante?"
+0,Default Welcome Intent,beleza ?,0,0,"Olá!
+Eu sou a ANA, uma assistente virtual, criada para facilitar o diálogo entre as pessoas e os especialistas em COVID-19 com base em evidências científicas."
+0,Default Welcome Intent,beleza ?,1,0,Os termos de uso estão disponíveis e podem ser baixados neste link: https://telessaude.hc.ufmg.br/Termo_de_Uso.pdf
+0,Default Welcome Intent,beleza ?,2,0,Você concorda que seus dados sejam coletados e armazenados para ações de saúde e pesquisa científica relacionadas à COVID-19 como descrito nos termos de uso?
+0,Default Welcome Intent,beleza ?,3,0,NOT TEXT
+0,get_personal_info,Eu me chamo Cleiton,0,0,"Obrigado $name. Como podemos te ajudar? 
+ Você acha que está com COVID-19 e quer saber se precisa ir ao serviço de urgência? Ou quer saber mais sobre a doença?"
+0,Default Welcome Intent - yes,Sim,0,0,Obrigada! Ficamos felizes com sua decisão. Seus dados ajudarão muito no progresso da Ciência e no combate à COVID-19.
+0,Default Welcome Intent - yes,Sim,1,0,"A gente pode ajudar se você acha que está COVID ou se quiser saber mais sobre a doença.
+"
+0,Default Welcome Intent - yes,Sim,2,0,"Para começarmos, me diga o seu nome?"
+0,Default Welcome Intent - no,Não,0,0,"Tudo bem! Entendemos e não vamos armazenar seus dados. 
+Caso mude de ideia, é só dizer """"termos de uso"""" e você aceita."
+0,Default Welcome Intent - no,Não,1,0,A gente pode ajudar se você acha que está COVID ou se quiser saber mais sobre a doença.
+0,Default Welcome Intent - no,Não,2,0,"Para começarmos, me diga o seu nome?"
