@@ -1,62 +1,42 @@
-'''
-baixe o csv do google docs, certifique-se que o nome do arquivo baixado é:'new_qa - Sheet1.csv'
-baixe o zip do dialogflow,extraia e certifique-se qeu ele a pasta se chama 'TeleCOVID'
-deixe esses 2 arquivos na mesma pasta desse script
-rode 'python3 csv2json.py'
-faça upload do zip gerado no dialogflow
-
-'''
-
-import pandas as pd
+import csv
 import os
 import json
-import csv
-import numpy as np
-import math
-import shutil
+from collections import defaultdict
 
+DEFAULT_CSV_NAME = 'new_qa - Sheet1.csv'
 
+def convert_csv_to_intents(csv_name: str = None):
+    if not csv_name:
+        csv_name = DEFAULT_CSV_NAME
 
-#esse e o nome padrao quando voce baixa o csv no google docs
-df = pd.read_csv('new_qa - Sheet1.csv')
+    csv_intent_responses = defaultdict(set)
+    with open(csv_name, 'r') as file:
+        csv_file = csv.DictReader(file, delimiter=';')
+        for row in csv_file:
+            csv_intent_responses[(row['INTENT_NAME'], int(row['MESSAGE_SEQ']))].add(row['TEXT'].replace('\r', '').replace('\n', ''))
 
-#criando um dicionario com os intents e as respostas pra esses intents
-#que estao presentes no csv
-intent_and_answers = {}
+    search_dir = 'TeleCOVID/intents/'
+    for intent_file_name in os.listdir(search_dir):
+        if 'usersays' not in intent_file_name:
+            with open(search_dir + intent_file_name, 'r') as intent_file:
+                intent_data = json.load(intent_file)
 
-names = df['INTENT NAME'].unique()
+                actual_name = intent_data['name']
+                messages_speech_blocks = [block for block in intent_data['responses'][0]['messages'] if 'speech' in block]
+                for seq, response_block in enumerate(messages_speech_blocks):
+                    possible_responses = set([response.replace('\r', '').replace('\n', '') for response in response_block['speech']])
 
-for name in names:
-	#answers = []
-	df_name = df.where(df['INTENT NAME'] == name).dropna()
+                    if possible_responses == csv_intent_responses[(actual_name, seq)]:
+                        pass
+                    else:
+                        response_block['speech'] = list(csv_intent_responses[(actual_name, seq)] - possible_responses)
 
-	#answers.append(df_name['TEXT'].tolist())
-	intent_and_answers[name] = df_name['TEXT'].tolist()
+            with open(search_dir + intent_file_name, 'w') as intent_file:
+                json.dump(intent_data, intent_file, ensure_ascii=False, indent=2)
 
-#cria um log com os intents que não estao no dialog flow
-with open('log.txt', 'w') as f:
-	f.write("LISTA DE INTENTS QUE AINDA NÃO ESTÃO NO DIALOGFLOW \n\n\n")
+if __name__ == '__main__':
+    import sys
 
-for name, answer in intent_and_answers.items():
-	fname = name + '.json'
-	if fname in os.listdir('TeleCOVID/intents'):
-		file = json.load(open(os.path.join('TeleCOVID/intents/', fname)))
-		    
-		for response in file['responses']:
-		    #aqui trocamos as respostas pelas encontradas no csv
-		    for message in response['messages']:
-		        message['speech'] = intent_and_answers[name]
+    csv_name = sys.argv[1] if len(sys.argv) > 1 else None
 
-		#reescrevedo o arquivo com as respostas corretas        
-		with open(os.path.join('TeleCOVID/intents/',fname), 'w') as fp:
-		    json.dump(file, fp, ensure_ascii=False, indent=4)
-	else:
-		#atualiza o log
-		with open('log.txt', 'a+') as f:
-			f.write(name + '\n')
-
-
-
-#fazendo um zip ja alterado que pode ser upado no dialogflow
-shutil.make_archive('TeleCOVID', 'zip', 'TeleCOVID')
-
+    convert_csv_to_intents(csv_name)
