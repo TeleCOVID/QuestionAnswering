@@ -73,7 +73,6 @@ def convert_intents_to_csv(directory: str = None, output_name: str = None, suffi
 
             response_text = defaultdict(list) # Dicionário (ID : Texto)
             for block in response_data['responses']:
-                #messages = [block['messages'][i] for i in range(len(block['messages']))]
                 speech_blocks = [x['speech'] for x in block['messages'] if 'speech' in x]
                 
                 for (number, text_list) in enumerate(speech_blocks):
@@ -91,6 +90,7 @@ def convert_intents_to_csv(directory: str = None, output_name: str = None, suffi
                             key,
                             text
                         ])
+                break # Adiciona apenas a primeira variante encontrada da questão.
 
     output_file.close()
 
