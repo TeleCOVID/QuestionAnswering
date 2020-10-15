@@ -2,6 +2,7 @@ import csv
 import os
 import json
 from collections import defaultdict
+import shutil
 
 DEFAULT_CSV_NAME = 'new_qa - Sheet1.csv'
 
@@ -33,6 +34,8 @@ def convert_csv_to_intents(csv_name: str = None):
 
             with open(search_dir + intent_file_name, 'w') as intent_file:
                 json.dump(intent_data, intent_file, ensure_ascii=False, indent=2)
+
+    shutil.make_archive('TeleCOVID', 'zip', 'TeleCOVID')
 
 if __name__ == '__main__':
     import sys
